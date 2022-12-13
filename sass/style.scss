@@ -1,6 +1,7 @@
 @use 'pantalla-de-carga';
 @use 'colores';
 @use 'header';
+@use 'seccion1';
 
 * {
   box-sizing: border-box;
@@ -12,6 +13,16 @@
 html {
   font-size: 62.5%;
 }
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  background-color: colores.$negro-1;
+}
+/* ///////////////// */
 .over-hidden {
   overflow: hidden;
 }
