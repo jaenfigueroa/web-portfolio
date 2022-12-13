@@ -106,6 +106,8 @@
     background: url(../assets/4.svg) no-repeat center;
     background-size: contain;
     // display: none;
+
+    animation: flotar 1s linear infinite alternate, crecer 1s linear both;
   }
 
   .contenedor-redes {
@@ -302,6 +304,8 @@
       display: initial;
       width: 250px;
       height: 250px;
+
+      // animation: flotar 1s linear infinite alternate, crecer 1s linear both;
     }
   }
 }
@@ -310,7 +314,7 @@
   .seccion1 {
     // background-color: green;
     height: calc(100vh - 7rem);
-    min-height: 700px;
+    min-height: 500px;
 
     .cajas {
       width: 440px;
@@ -393,5 +397,23 @@
     .contenedor-redes {
       bottom: 6rem;
     }
+  }
+}
+
+@keyframes flotar {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes crecer {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
   }
 }

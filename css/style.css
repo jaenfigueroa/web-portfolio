@@ -145,6 +145,7 @@
   height: 250px;
   background: url(../assets/4.svg) no-repeat center;
   background-size: contain;
+  animation: flotar 1s linear infinite alternate, crecer 1s linear both;
 }
 .seccion1 .contenedor-redes {
   position: absolute;
@@ -329,7 +330,7 @@
 @media (min-width: 980px) {
   .seccion1 {
     height: calc(100vh - 7rem);
-    min-height: 700px;
+    min-height: 500px;
   }
   .seccion1 .cajas {
     width: 440px;
@@ -391,6 +392,22 @@
   }
   .seccion1 .contenedor-redes {
     bottom: 6rem;
+  }
+}
+@keyframes flotar {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+@keyframes crecer {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
   }
 }
 .pantalla-de-carga {
