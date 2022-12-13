@@ -311,8 +311,8 @@
     font-size: 1.8rem;
   }
   .seccion1 .seccion1__imagen {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
 }
 @media (min-width: 1300px) {
