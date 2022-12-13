@@ -75,10 +75,12 @@
       padding: 0.4rem 1.3rem;
       border-radius: 0.25rem;
       background-color: white;
-      // background-color: colores.$azul-3;
+      // text-transform: uppercase;
+      background-color: colores.$azul-0;
+      color: white;
 
       &:hover {
-        background-color: colores.$azul-0;
+        background-color: darken(colores.$azul-0, 6);
         color: white;
       }
     }

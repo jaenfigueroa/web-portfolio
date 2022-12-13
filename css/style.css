@@ -120,9 +120,11 @@
   padding: 0.4rem 1.3rem;
   border-radius: 0.25rem;
   background-color: white;
+  background-color: #7065ff;
+  color: white;
 }
 .seccion1 .caja2__boton:hover {
-  background-color: #7065ff;
+  background-color: #5446ff;
   color: white;
 }
 .seccion1 .seccion1__imagen {
