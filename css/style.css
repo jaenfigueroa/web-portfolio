@@ -65,45 +65,68 @@
   border-top: 1px solid rgba(255, 255, 255, 0.074);
   border-bottom: 1px solid rgba(255, 255, 255, 0.074);
   width: 100%;
-  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3rem 1rem;
+  height: 250px;
+  background: linear-gradient(90deg, #202020, #151515);
 }
-.seccion1 .caja {
-  width: 300px;
+.seccion1 .cajas {
+  width: 260px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 }
-.seccion1 .caja .titulo {
+.seccion1 .caja1 {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seccion1 .caja1 .titulo {
   font-size: 3.5rem;
   font-weight: 500;
   color: rgb(173, 176, 255);
   animation: blink 0.5s infinite step-end alternate;
 }
-.seccion1 .caja .titulo--animada:after {
+.seccion1 .caja1 .titulo--animada:after {
   content: "Hello, I'm Jaen";
   animation: saludo 3s;
 }
-.seccion1 .caja .cargo {
+.seccion1 .caja1 .cargo {
   font-size: 2rem;
   font-weight: 300;
   margin-top: -5px;
   border-right: 2px solid white;
   animation: blink 0.5s infinite step-end alternate;
   color: white;
+  width: max-content;
 }
-.seccion1 .caja .cargo--animada:before {
+.seccion1 .caja1 .cargo--animada:before {
   content: "";
   animation: cargo 5s both;
+}
+.seccion1 .caja2 {
+  display: flex;
+  gap: 1rem;
+}
+.seccion1 .caja2__boton {
+  border: none;
+  padding: 0.4rem 1.3rem;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+.seccion1 .caja2__boton:hover {
+  background-color: #7065ff;
+  color: white;
 }
 .seccion1 .seccion1__imagen {
   width: 300px;
   height: 300px;
-  background-color: red;
-  background: url(../assets/Hand\ coding-bro.svg) no-repeat center;
+  background: url(../assets/3.svg) no-repeat center;
   background-size: contain;
   display: none;
 }
@@ -235,33 +258,53 @@
 @media (min-width: 620px) {
   .seccion1 {
     height: max-content;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 3rem;
+    height: 50vh;
   }
-  .seccion1 .caja {
+  .seccion1 .cajas {
+    width: 275px;
+    gap: 4rem;
+  }
+  .seccion1 .cajas .caja1 {
     align-items: flex-start;
   }
-  .seccion1 .caja .titulo {
-    font-size: 3.5rem;
+  .seccion1 .cajas .caja1 .titulo {
+    font-size: 3.7rem;
   }
-  .seccion1 .caja .cargo {
+  .seccion1 .cajas .caja1 .cargo {
     font-size: 2rem;
+  }
+  .seccion1 .cajas .caja2 {
+    align-self: flex-start;
+  }
+  .seccion1 .cajas .caja2__boton {
+    font-size: 1.6rem;
+    padding: 0.4rem 1.5rem;
   }
   .seccion1 .seccion1__imagen {
     display: initial;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 }
 @media (min-width: 980px) {
-  .seccion1 .caja {
-    width: 520px;
+  .seccion1 .cajas {
+    width: 440px;
+    gap: 4.5rem;
   }
-  .seccion1 .caja .titulo {
+  .seccion1 .cajas .caja1 {
+    width: 440px;
+    height: 130px;
+  }
+  .seccion1 .cajas .caja1 .titulo {
     font-size: 6rem;
   }
-  .seccion1 .caja .cargo {
+  .seccion1 .cajas .caja1 .cargo {
     font-size: 3rem;
+  }
+  .seccion1 .cajas .caja2__boton {
+    font-size: 1.8rem;
   }
   .seccion1 .seccion1__imagen {
     width: 300px;
@@ -269,18 +312,30 @@
   }
 }
 @media (min-width: 1200px) {
-  .seccion1 .caja {
-    width: 650px;
+  .seccion1 {
+    height: calc(100vh - 8rem);
   }
-  .seccion1 .caja .titulo {
+  .seccion1 .cajas {
+    width: 510px;
+    gap: 6rem;
+  }
+  .seccion1 .cajas .caja1 {
+    width: 510px;
+    height: 150px;
+  }
+  .seccion1 .cajas .caja1 .titulo {
     font-size: 7rem;
   }
-  .seccion1 .caja .cargo {
+  .seccion1 .cajas .caja1 .cargo {
     font-size: 3.5rem;
+    margin-top: -15px;
+  }
+  .seccion1 .cajas .caja2__boton {
+    font-size: 2rem;
   }
   .seccion1 .seccion1__imagen {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
   }
 }
 .pantalla-de-carga {

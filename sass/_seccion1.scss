@@ -1,19 +1,35 @@
+@use 'colores';
+
 .seccion1 {
   border-top: 1px solid rgba(255, 255, 255, 0.074);
   border-bottom: 1px solid rgba(255, 255, 255, 0.074);
   width: 100%;
-  height: 200px;
+  // height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3rem 1rem;
+  // border: 1px solid red;
 
-  .caja {
-    width: 300px;
+  height: 250px;
+  background: linear-gradient(90deg, #202020, #151515);
+
+  .cajas {
+    width: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     // border: 1px solid white;
+    gap: 3rem;
+  }
+
+  .caja1 {
+    // background-color: rgba(255, 255, 0, 0.464);
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .titulo {
       font-size: 3.5rem;
@@ -36,6 +52,7 @@
       border-right: 2px solid white;
       animation: blink 0.5s infinite step-end alternate;
       color: white;
+      width: max-content;
 
       &--animada {
         &:before {
@@ -45,12 +62,30 @@
       }
     }
   }
+  .caja2 {
+    // background-color: rgba(30, 255, 0, 0.464);
+    display: flex;
+    gap: 1rem;
+
+    &__boton {
+      border: none;
+      padding: 0.4rem 1.3rem;
+      border-radius: 0.25rem;
+      background-color: white;
+      // background-color: colores.$azul-3;
+
+      &:hover {
+        background-color: colores.$azul-0;
+        color: white;
+      }
+    }
+  }
   .seccion1__imagen {
     // border: 1px solid white;
     width: 300px;
     height: 300px;
-    background-color: red;
-    background: url(../assets/Hand\ coding-bro.svg) no-repeat center;
+    // background-color: red;
+    background: url(../assets/3.svg) no-repeat center;
     background-size: contain;
     display: none;
   }
@@ -177,23 +212,7 @@
   53% {
     content: 'Front-end Developer';
   }
-  // 56% {
-  //   content: 'Full-stack Web Devel';
-  // }
-  // 59% {
-  //   content: 'Full-stack Web Develo';
-  // }
-  // 61% {
-  //   content: 'Full-stack Web Develop';
-  // }
-  // 64% {
-  //   content: 'Full-stack Web Develope';
-  // }
-  // 67% {
-  //   content: 'Full-stack Web Developer';
-  // }
   100% {
-    // content: 'Full-stack Web Developer';
     content: 'Front-end Developer';
   }
 }
@@ -202,37 +221,72 @@
 @media (min-width: 620px) {
   .seccion1 {
     height: max-content;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 3rem;
-    .caja {
-      align-items: flex-start;
+    // background-color: blue;
 
-      .titulo {
-        font-size: 3.5rem;
+    height: calc(50vh);
+
+    .cajas {
+      width: 275px;
+      gap: 4rem;
+
+      .caja1 {
+        align-items: flex-start;
+
+        .titulo {
+          font-size: 3.7rem;
+          // color: violet;
+        }
+        .cargo {
+          font-size: 2rem;
+        }
       }
-      .cargo {
-        font-size: 2rem;
+      .caja2 {
+        align-self: flex-start;
+
+        &__boton {
+          // background-color: red;
+          font-size: 1.6rem;
+          padding: 0.4rem 1.5rem;
+        }
       }
     }
 
     .seccion1__imagen {
+      // border: 1px solid greenyellow;
       display: initial;
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
     }
   }
 }
 
 @media (min-width: 980px) {
   .seccion1 {
-    .caja {
-      width: 520px;
+    // background-color: green;
 
-      .titulo {
-        font-size: 6rem;
+    .cajas {
+      width: 440px;
+      gap: 4.5rem;
+
+      .caja1 {
+        width: 440px;
+        height: 130px;
+
+        .titulo {
+          font-size: 6rem;
+          // color: red;
+        }
+        .cargo {
+          font-size: 3rem;
+        }
       }
-      .cargo {
-        font-size: 3rem;
+      .caja2 {
+        &__boton {
+          // background-color: red;
+          font-size: 1.8rem;
+        }
       }
     }
 
@@ -245,20 +299,36 @@
 
 @media (min-width: 1200px) {
   .seccion1 {
-    .caja {
-      width: 650px;
+    // background-color: crimson;
+    height: calc(100vh - 8rem);
 
-      .titulo {
-        font-size: 7rem;
+    .cajas {
+      width: 510px;
+      gap: 6rem;
+
+      .caja1 {
+        width: 510px;
+        height: 150px;
+
+        .titulo {
+          font-size: 7rem;
+        }
+        .cargo {
+          font-size: 3.5rem;
+          margin-top: -15px;
+        }
       }
-      .cargo {
-        font-size: 3.5rem;
+      .caja2 {
+        &__boton {
+          // background-color: red;
+          font-size: 2rem;
+        }
       }
     }
 
     .seccion1__imagen {
-      width: 300px;
-      height: 300px;
+      width: 500px;
+      height: 500px;
     }
   }
 }
