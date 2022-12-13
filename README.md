@@ -22,7 +22,7 @@ In this project, I have developed a portafolio.
 
 - ### Mobile preview
 
-<img src="./assets/readme/portafolio-mobile-2.png" style="width: 70%"  />
+<img src="./assets/readme/portafolio-mobile-2.png" style="width: 50%"  />
 
 ## 🔠 Fonts
 
