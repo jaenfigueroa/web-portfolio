@@ -61,8 +61,10 @@
   }
 }
 
-@media (min-width: 540px) {
+@media (min-width: 630px) {
   .header {
+    padding: 4rem;
+
     .nav {
       &__icono {
         display: none;
@@ -70,9 +72,8 @@
       &__contenedor {
         background: transparent;
         flex-direction: row;
-        position: static;
-        padding: 0rem;
-        transform: translateY(0);
+        position: initial;
+        height: max-content;
       }
     }
   }

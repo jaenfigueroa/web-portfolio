@@ -47,19 +47,23 @@
   color: #acaffe;
 }
 
-@media (min-width: 540px) {
+@media (min-width: 630px) {
+  .header {
+    padding: 4rem;
+  }
   .header .nav__icono {
     display: none;
   }
   .header .nav__contenedor {
     background: transparent;
     flex-direction: row;
-    position: static;
-    padding: 0rem;
-    transform: translateY(0);
+    position: initial;
+    height: max-content;
   }
 }
 .seccion1 {
+  border-top: 1px solid rgba(255, 255, 255, 0.074);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.074);
   width: 100%;
   height: 200px;
   display: flex;
@@ -94,6 +98,14 @@
 .seccion1 .caja .cargo--animada:before {
   content: "";
   animation: cargo 5s both;
+}
+.seccion1 .seccion1__imagen {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  background: url(../assets/Hand\ coding-bro.svg) no-repeat center;
+  background-size: contain;
+  display: none;
 }
 
 /* ///////////////////////////////////////// */
@@ -162,76 +174,113 @@
     content: "F";
   }
   3% {
-    content: "Fu";
+    content: "Fr";
   }
   6% {
-    content: "Ful";
+    content: "Fro";
   }
   9% {
-    content: "Full";
+    content: "Fron";
   }
   12% {
-    content: "Full-";
+    content: "Front";
   }
   15% {
-    content: "Full-s";
+    content: "Front-";
   }
   18% {
-    content: "Full-st";
+    content: "Front-e";
   }
   21% {
-    content: "Full-sta";
+    content: "Front-en";
   }
   24% {
-    content: "Full-stac";
+    content: "Front-end";
   }
   27% {
-    content: "Full-stack";
+    content: "Front-end ";
   }
   30% {
-    content: "Full-stack ";
+    content: "Front-end D";
   }
   33% {
-    content: "Full-stack W";
+    content: "Front-end De";
   }
   36% {
-    content: "Full-stack We";
+    content: "Front-end Dev";
   }
   39% {
-    content: "Full-stack Web";
+    content: "Front-end Deve";
   }
   42% {
-    content: "Full-stack Web ";
+    content: "Front-end Devel";
   }
   45% {
-    content: "Full-stack Web D";
+    content: "Front-end Develo";
   }
   48% {
-    content: "Full-stack Web De";
+    content: "Front-end Develop";
   }
   51% {
-    content: "Full-stack Web Dev";
+    content: "Front-end Develope";
   }
   53% {
-    content: "Full-stack Web Deve";
-  }
-  56% {
-    content: "Full-stack Web Devel";
-  }
-  59% {
-    content: "Full-stack Web Develo";
-  }
-  61% {
-    content: "Full-stack Web Develop";
-  }
-  64% {
-    content: "Full-stack Web Develope";
-  }
-  67% {
-    content: "Full-stack Web Developer";
+    content: "Front-end Developer";
   }
   100% {
-    content: "Full-stack Web Developer";
+    content: "Front-end Developer";
+  }
+}
+/* ///////////////////////////////////////// */
+@media (min-width: 620px) {
+  .seccion1 {
+    height: max-content;
+    justify-content: space-evenly;
+    padding: 3rem;
+  }
+  .seccion1 .caja {
+    align-items: flex-start;
+  }
+  .seccion1 .caja .titulo {
+    font-size: 3.5rem;
+  }
+  .seccion1 .caja .cargo {
+    font-size: 2rem;
+  }
+  .seccion1 .seccion1__imagen {
+    display: initial;
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 980px) {
+  .seccion1 .caja {
+    width: 520px;
+  }
+  .seccion1 .caja .titulo {
+    font-size: 6rem;
+  }
+  .seccion1 .caja .cargo {
+    font-size: 3rem;
+  }
+  .seccion1 .seccion1__imagen {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .seccion1 .caja {
+    width: 650px;
+  }
+  .seccion1 .caja .titulo {
+    font-size: 7rem;
+  }
+  .seccion1 .caja .cargo {
+    font-size: 3.5rem;
+  }
+  .seccion1 .seccion1__imagen {
+    width: 300px;
+    height: 300px;
   }
 }
 .pantalla-de-carga {
