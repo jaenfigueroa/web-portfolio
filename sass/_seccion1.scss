@@ -16,6 +16,7 @@
   // height: 250px;
   height: calc(100vh - 6rem);
   justify-content: space-evenly;
+  position: relative;
 
   .cajas {
     width: 260px;
@@ -104,6 +105,28 @@
     background: url(../assets/4.svg) no-repeat center;
     background-size: contain;
     // display: none;
+  }
+
+  .contenedor-redes {
+    // background-color: greenyellow;
+    position: absolute;
+    bottom: 2rem;
+    right: 1.5rem;
+    left: 1.5rem;
+    display: none;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      gap: 1rem;
+
+      i {
+        color: white;
+        font-size: 1.8rem;
+        font-size: 1.6rem;
+      }
+    }
   }
 }
 
@@ -241,6 +264,7 @@
     justify-content: space-around;
     padding: 3rem;
     height: calc(50vh);
+    height: 400px;
 
     .cajas {
       width: 275px;
@@ -309,6 +333,19 @@
     .seccion1__imagen {
       width: 350px;
       height: 350px;
+    }
+
+    .contenedor-redes {
+      display: block;
+      bottom: 6rem;
+
+      ul {
+        gap: 1.5rem;
+
+        i {
+          font-size: 1.8rem;
+        }
+      }
     }
   }
 }

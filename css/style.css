@@ -76,6 +76,7 @@
   flex-direction: column-reverse;
   height: calc(100vh - 6rem);
   justify-content: space-evenly;
+  position: relative;
 }
 .seccion1 .cajas {
   width: 260px;
@@ -143,6 +144,24 @@
   height: 250px;
   background: url(../assets/4.svg) no-repeat center;
   background-size: contain;
+}
+.seccion1 .contenedor-redes {
+  position: absolute;
+  bottom: 2rem;
+  right: 1.5rem;
+  left: 1.5rem;
+  display: none;
+}
+.seccion1 .contenedor-redes ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  gap: 1rem;
+}
+.seccion1 .contenedor-redes ul i {
+  color: white;
+  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 /* ///////////////////////////////////////// */
@@ -275,6 +294,7 @@
     justify-content: space-around;
     padding: 3rem;
     height: 50vh;
+    height: 400px;
   }
   .seccion1 .cajas {
     width: 275px;
@@ -326,6 +346,16 @@
   .seccion1 .seccion1__imagen {
     width: 350px;
     height: 350px;
+  }
+  .seccion1 .contenedor-redes {
+    display: block;
+    bottom: 6rem;
+  }
+  .seccion1 .contenedor-redes ul {
+    gap: 1.5rem;
+  }
+  .seccion1 .contenedor-redes ul i {
+    font-size: 1.8rem;
   }
 }
 @media (min-width: 1300px) {
