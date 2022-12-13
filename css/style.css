@@ -328,7 +328,7 @@
   }
   .seccion1 .cajas {
     width: 440px;
-    gap: 4.5rem;
+    gap: 5rem;
   }
   .seccion1 .cajas .caja1 {
     width: 440px;
@@ -349,7 +349,7 @@
   }
   .seccion1 .contenedor-redes {
     display: block;
-    bottom: 6rem;
+    bottom: 4rem;
   }
   .seccion1 .contenedor-redes ul {
     gap: 1.5rem;
@@ -383,6 +383,9 @@
   .seccion1 .seccion1__imagen {
     width: 500px;
     height: 500px;
+  }
+  .seccion1 .contenedor-redes {
+    bottom: 6rem;
   }
 }
 .pantalla-de-carga {

@@ -308,7 +308,7 @@
 
     .cajas {
       width: 440px;
-      gap: 4.5rem;
+      gap: 5rem;
 
       .caja1 {
         width: 440px;
@@ -337,7 +337,7 @@
 
     .contenedor-redes {
       display: block;
-      bottom: 6rem;
+      bottom: 4rem;
 
       ul {
         gap: 1.5rem;
@@ -382,6 +382,10 @@
     .seccion1__imagen {
       width: 500px;
       height: 500px;
+    }
+
+    .contenedor-redes {
+      bottom: 6rem;
     }
   }
 }
