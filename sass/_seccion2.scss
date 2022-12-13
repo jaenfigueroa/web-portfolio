@@ -16,7 +16,6 @@
 
   .caja {
     width: 100%;
-    background-color: red;
     border-radius: 1rem;
     overflow: hidden;
     background: #1a1a1a;
@@ -24,6 +23,7 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    justify-content: space-between;
 
     &__contenido {
       width: 100%;
@@ -68,8 +68,8 @@
         i {
           font-size: 5rem;
           // background-color: red;
-          width: 80px;
-          height: 80px;
+          max-width: 80px;
+          max-height: 80px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -111,8 +111,24 @@
           gap: 5rem;
 
           i {
-            font-size: 7rem;
+            font-size: 7.5rem;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .seccion2 {
+    padding: 4rem;
+
+    .caja {
+      gap: 6rem;
+
+      .caja__contenido {
+        label {
+          font-size: 4rem;
         }
       }
     }
@@ -125,7 +141,7 @@
     .caja {
       flex-direction: row;
       // background-color: blue;
-      padding: 4rem;
+      padding: 5rem 5rem;
       justify-content: space-between;
 
       .caja__contenido {
