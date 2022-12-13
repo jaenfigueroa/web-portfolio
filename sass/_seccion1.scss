@@ -1,8 +1,9 @@
 @use 'colores';
 
 .seccion1 {
-  border-top: 1px solid rgba(255, 255, 255, 0.074);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.074);
+  // border-top: 1px solid rgba(255, 255, 255, 0.074);
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.074);
+
   width: 100%;
   // height: 200px;
   display: flex;
@@ -305,6 +306,7 @@
   .seccion1 {
     // background-color: green;
     height: calc(100vh - 7rem);
+    min-height: 700px;
 
     .cajas {
       width: 440px;
