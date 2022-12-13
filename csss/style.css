@@ -1,6 +1,61 @@
+.pantalla-de-carga {
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .header {
   background-color: #141414;
   padding: 1rem 2rem;
+  background-color: transparent;
+  background: linear-gradient(270deg, #141414, rgb(44, 44, 44));
   background: #0e0e0e;
   display: flex;
   justify-content: space-between;
@@ -83,25 +138,6 @@
   content: "Hello, I'm Jaen";
   animation: saludo 3s;
 }
-.seccion1 .caja .cargo {
-  font-size: 2rem;
-  font-weight: 300;
-  margin-top: -5px;
-  border-right: 2px solid white;
-  animation: blink 0.5s infinite step-end alternate;
-  color: white;
-}
-.seccion1 .caja .cargo--animada:before {
-  content: "";
-  animation: cargo 5s both;
-}
-
-/* ///////////////////////////////////////// */
-@keyframes blink {
-  50% {
-    border: transparent;
-  }
-}
 @keyframes saludo {
   0% {
     content: "H";
@@ -156,6 +192,23 @@
   100% {
     border-right: 3px solid transparent;
   }
+}
+.seccion1 .caja .cargo {
+  font-size: 2rem;
+  font-weight: 300;
+  transform: translateY(-10px) translateX(0px);
+  transform: translateY(-5px) translateX(0px);
+  /* //////////// */
+  white-space: nowrap;
+  border-right: 2px solid white;
+  width: max-content;
+  animation: blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+  color: white;
+}
+.seccion1 .caja .cargo--animada:before {
+  content: "   ";
+  animation: cargo 5s both;
 }
 @keyframes cargo {
   1% {
@@ -234,59 +287,52 @@
     content: "Full-stack Web Developer";
   }
 }
-.pantalla-de-carga {
+@keyframes blink {
+  50% {
+    border: transparent;
+  }
+}
+.seccion1 .caja .contenedor-imagenes {
   width: 100%;
-  height: 100vh;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
 }
-
-.lds-ring {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
-}
-
-.lds-ring div {
-  box-sizing: border-box;
-  display: block;
+.seccion1 .caja .contenedor-imagenes .imagen {
+  width: 200px;
+  height: 200px;
+  right: 70px;
+  right: 60px;
+  right: 50px;
+  right: 45px;
+  right: 40px;
   position: absolute;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border: 8px solid #fff;
-  border-radius: 50%;
-  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #fff transparent transparent transparent;
+  background-image: url(../assets/4.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+}
+.seccion1 .caja .contenedor-icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 300px;
+  bottom: 20px;
+  gap: 1.5rem;
+  right: -275px;
+}
+.seccion1 .caja .contenedor-icons i {
+  font-size: 2rem;
+  font-size: 1.5rem;
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
 }
 
-.lds-ring div:nth-child(1) {
-  animation-delay: -0.45s;
-}
-
-.lds-ring div:nth-child(2) {
-  animation-delay: -0.3s;
-}
-
-.lds-ring div:nth-child(3) {
-  animation-delay: -0.15s;
-}
-
-@keyframes lds-ring {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+/* /////////////////////////////7 */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -304,14 +350,18 @@ ol {
   list-style: none;
 }
 
-/* ///////////////// */
-.body {
+body {
   background-color: #141414;
 }
 
 /* ///////////////// */
 .over-hidden {
   overflow: hidden;
+}
+
+.main {
+  background-color: rgba(172, 255, 47, 0.377);
+  z-index: -5;
 }
 
 /*# sourceMappingURL=style.css.map */
