@@ -290,6 +290,9 @@
   }
 }
 @media (min-width: 980px) {
+  .seccion1 {
+    height: calc(100vh - 7rem);
+  }
   .seccion1 .cajas {
     width: 440px;
     gap: 4.5rem;

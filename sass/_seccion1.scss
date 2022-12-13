@@ -267,6 +267,7 @@
 @media (min-width: 980px) {
   .seccion1 {
     // background-color: green;
+    height: calc(100vh - 7rem);
 
     .cajas {
       width: 440px;
