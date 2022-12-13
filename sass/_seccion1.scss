@@ -126,6 +126,10 @@
         color: white;
         font-size: 1.8rem;
         font-size: 1.6rem;
+
+        &:hover {
+          color: colores.$azul-2;
+        }
       }
     }
   }

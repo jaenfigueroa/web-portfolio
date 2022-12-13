@@ -22,6 +22,7 @@
   color: white;
 }
 .header .nav__contenedor {
+  background: #191919;
   width: 100%;
   height: max-content;
   display: flex;
@@ -39,7 +40,7 @@
 }
 .header .nav__contenedor--visible {
   height: max-content;
-  padding: 2rem;
+  padding: 4rem;
 }
 .header .nav__item {
   color: white;
@@ -162,6 +163,9 @@
   color: white;
   font-size: 1.8rem;
   font-size: 1.6rem;
+}
+.seccion1 .contenedor-redes ul i:hover {
+  color: #acaffe;
 }
 
 /* ///////////////////////////////////////// */
