@@ -106,8 +106,6 @@
     background: url(../assets/4.svg) no-repeat center;
     background-size: contain;
     // display: none;
-
-    animation: flotar 1s linear infinite alternate, crecer 1s linear both;
   }
 
   .contenedor-redes {
@@ -305,7 +303,7 @@
       width: 250px;
       height: 250px;
 
-      // animation: flotar 1s linear infinite alternate, crecer 1s linear both;
+      animation: flotar 1s linear infinite alternate, crecer 1s linear both;
     }
   }
 }

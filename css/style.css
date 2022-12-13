@@ -145,7 +145,6 @@
   height: 250px;
   background: url(../assets/4.svg) no-repeat center;
   background-size: contain;
-  animation: flotar 1s linear infinite alternate, crecer 1s linear both;
 }
 .seccion1 .contenedor-redes {
   position: absolute;
@@ -325,6 +324,7 @@
     display: initial;
     width: 250px;
     height: 250px;
+    animation: flotar 1s linear infinite alternate, crecer 1s linear both;
   }
 }
 @media (min-width: 980px) {
