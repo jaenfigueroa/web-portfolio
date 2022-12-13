@@ -40,6 +40,7 @@
       justify-content: end;
 
       gap: 2rem;
+      gap: 1.5rem;
 
       position: absolute;
       top: 50px;
@@ -58,11 +59,21 @@
 
     &__item {
       color: white;
+      border-bottom: 1.5px solid rgba(255, 0, 0, 0);
+      transition: 0.5s;
+      cursor: pointer;
+      padding: 0 0.5rem;
 
       &:hover {
         color: blue;
         color: colores.$azul-2;
+        border-bottom: 1.5px solid colores.$azul-2;
       }
+    }
+
+    &__item:first-child {
+      color: colores.$azul-2;
+      border-bottom: 1.5px solid colores.$azul-2;
     }
   }
 }
@@ -80,9 +91,6 @@
         flex-direction: row;
         position: initial;
         height: max-content;
-      }
-      &__item:first-child {
-        color: colores.$azul-2;
       }
     }
   }

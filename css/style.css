@@ -30,6 +30,7 @@
   align-items: center;
   justify-content: end;
   gap: 2rem;
+  gap: 1.5rem;
   position: absolute;
   top: 50px;
   left: 0;
@@ -44,10 +45,19 @@
 }
 .header .nav__item {
   color: white;
+  border-bottom: 1.5px solid rgba(255, 0, 0, 0);
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 0 0.5rem;
 }
 .header .nav__item:hover {
   color: blue;
   color: #acaffe;
+  border-bottom: 1.5px solid #acaffe;
+}
+.header .nav__item:first-child {
+  color: #acaffe;
+  border-bottom: 1.5px solid #acaffe;
 }
 
 @media (min-width: 630px) {
@@ -62,9 +72,6 @@
     flex-direction: row;
     position: initial;
     height: max-content;
-  }
-  .header .nav__item:first-child {
-    color: #acaffe;
   }
 }
 .seccion1 {
@@ -324,7 +331,7 @@
     display: initial;
     width: 250px;
     height: 250px;
-    animation: flotar 1s linear infinite alternate, crecer 1s linear both;
+    animation: flotar 1.5s linear infinite alternate, crecer 1s linear both;
   }
 }
 @media (min-width: 980px) {
