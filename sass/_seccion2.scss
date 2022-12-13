@@ -13,6 +13,7 @@
   flex-direction: column;
 
   padding: 4rem 2rem;
+  // background-color: red;
 
   .caja {
     width: 100%;
@@ -24,6 +25,7 @@
     flex-direction: column;
     gap: 4rem;
     justify-content: space-between;
+    // background-color: blue;
 
     &__contenido {
       width: 100%;
@@ -138,6 +140,7 @@
 @media (min-width: 900px) {
   .seccion2 {
     // background-color: red;
+    // padding: 6rem;
     .caja {
       flex-direction: row;
       // background-color: blue;
@@ -171,5 +174,11 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .seccion2 {
+    padding: 6rem 4rem;
   }
 }
