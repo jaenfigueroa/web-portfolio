@@ -69,8 +69,10 @@
   justify-content: center;
   align-items: center;
   padding: 3rem 1rem;
-  height: 250px;
   background: linear-gradient(90deg, #202020, #151515);
+  flex-direction: column-reverse;
+  height: calc(100vh - 6rem);
+  justify-content: space-evenly;
 }
 .seccion1 .cajas {
   width: 260px;
@@ -124,11 +126,10 @@
   color: white;
 }
 .seccion1 .seccion1__imagen {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background: url(../assets/3.svg) no-repeat center;
   background-size: contain;
-  display: none;
 }
 
 /* ///////////////////////////////////////// */
@@ -257,7 +258,7 @@
 /* ///////////////////////////////////////// */
 @media (min-width: 620px) {
   .seccion1 {
-    height: max-content;
+    flex-direction: row;
     justify-content: space-around;
     padding: 3rem;
     height: 50vh;
@@ -311,7 +312,7 @@
     height: 300px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .seccion1 {
     height: calc(100vh - 8rem);
   }

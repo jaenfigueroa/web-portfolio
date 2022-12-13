@@ -10,9 +10,12 @@
   align-items: center;
   padding: 3rem 1rem;
   // border: 1px solid red;
-
-  height: 250px;
   background: linear-gradient(90deg, #202020, #151515);
+
+  flex-direction: column-reverse;
+  // height: 250px;
+  height: calc(100vh - 6rem);
+  justify-content: space-evenly;
 
   .cajas {
     width: 260px;
@@ -82,12 +85,12 @@
   }
   .seccion1__imagen {
     // border: 1px solid white;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     // background-color: red;
     background: url(../assets/3.svg) no-repeat center;
     background-size: contain;
-    display: none;
+    // display: none;
   }
 }
 
@@ -220,11 +223,10 @@
 
 @media (min-width: 620px) {
   .seccion1 {
-    height: max-content;
+    // background-color: blue;
+    flex-direction: row;
     justify-content: space-around;
     padding: 3rem;
-    // background-color: blue;
-
     height: calc(50vh);
 
     .cajas {
@@ -297,7 +299,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .seccion1 {
     // background-color: crimson;
     height: calc(100vh - 8rem);
