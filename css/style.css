@@ -120,17 +120,25 @@
   padding: 0.4rem 1.3rem;
   border-radius: 0.25rem;
   background-color: white;
-  background-color: #7065ff;
   color: white;
+  border: 1px solid #7065ff;
+  background-color: transparent;
+  cursor: pointer;
 }
 .seccion1 .caja2__boton:hover {
-  background-color: #5446ff;
+  background-color: #5b4eff;
   color: white;
+}
+.seccion1 .caja2__boton:first-child {
+  background-color: #695dff;
+}
+.seccion1 .caja2__boton:first-child:hover {
+  background-color: #584cff;
 }
 .seccion1 .seccion1__imagen {
   width: 250px;
   height: 250px;
-  background: url(../assets/3.svg) no-repeat center;
+  background: url(../assets/4.svg) no-repeat center;
   background-size: contain;
 }
 

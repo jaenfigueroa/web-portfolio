@@ -76,12 +76,23 @@
       border-radius: 0.25rem;
       background-color: white;
       // text-transform: uppercase;
-      background-color: colores.$azul-0;
+      // background-color: darken(colores.$azul-0, 0);
       color: white;
+      border: 1px solid colores.$azul-0;
+      background-color: transparent;
+      // color: colores.$azul-0;
+      cursor: pointer;
 
       &:hover {
-        background-color: darken(colores.$azul-0, 6);
+        background-color: darken(colores.$azul-0, 4.5);
         color: white;
+      }
+
+      &:first-child {
+        background-color: darken(colores.$azul-0, 1.5);
+        &:hover {
+          background-color: darken(colores.$azul-0, 5);
+        }
       }
     }
   }
@@ -90,7 +101,7 @@
     width: 250px;
     height: 250px;
     // background-color: red;
-    background: url(../assets/3.svg) no-repeat center;
+    background: url(../assets/4.svg) no-repeat center;
     background-size: contain;
     // display: none;
   }
