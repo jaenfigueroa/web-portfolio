@@ -89,7 +89,7 @@
       }
 
       &:first-child {
-        background-color: darken(colores.$azul-0, 1.5);
+        background-color: darken(colores.$azul-0, 1);
         &:hover {
           background-color: darken(colores.$azul-0, 5);
         }
