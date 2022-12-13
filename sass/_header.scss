@@ -75,6 +75,9 @@
         position: initial;
         height: max-content;
       }
+      &__item:first-child {
+        color: colores.$azul-2;
+      }
     }
   }
 }
