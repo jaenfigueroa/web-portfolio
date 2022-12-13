@@ -82,7 +82,7 @@
   padding: 3rem 1rem;
   background: linear-gradient(90deg, #202020, #151515);
   flex-direction: column-reverse;
-  height: calc(100vh - 6rem);
+  height: calc(100vh - 5rem);
   justify-content: space-evenly;
   position: relative;
 }
@@ -421,21 +421,22 @@
   background: #acaffe;
   background: #8f88fe;
   background: #8179fe;
-  height: 100vh;
+  height: calc(100vh - 5rem);
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 .seccion2__imagen {
-  width: 300px;
-  height: 300px;
-  background-color: gray;
+  width: 250px;
+  height: 250px;
+  background-color: #333;
 }
 .seccion2__contenido {
-  width: 400px;
-  height: 400px;
-  background-color: gray;
+  width: 300px;
+  height: 300px;
+  background-color: #333;
 }
 
 .pantalla-de-carga {
