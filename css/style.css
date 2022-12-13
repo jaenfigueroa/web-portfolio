@@ -41,7 +41,7 @@
 }
 .header .nav__contenedor--visible {
   height: max-content;
-  padding: 4rem;
+  padding: 4rem 0;
 }
 .header .nav__item {
   color: white;
