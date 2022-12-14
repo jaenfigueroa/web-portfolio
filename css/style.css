@@ -696,7 +696,8 @@
   border: 1px solid #8f88fe;
 }
 .seccion4 .caja form .boton-enviar {
-  padding: 1rem;
+  margin-top: 1rem;
+  padding: 1.5rem;
   border-radius: 0.5rem;
   border: none;
   border: 1px solid #8f88fe;
@@ -708,13 +709,25 @@
 }
 
 @media (min-width: 650px) {
+  .seccion4 .caja {
+    padding: 5rem 4rem;
+    gap: 4rem;
+  }
   .seccion4 h2 {
     font-size: 4rem;
   }
 }
 @media (min-width: 900px) {
+  .seccion4 .caja span {
+    font-size: 1.8rem;
+  }
   .seccion4 h2 {
     font-size: 5rem;
+  }
+}
+@media (min-width: 980px) {
+  .seccion4 .caja form button {
+    font-size: 1.8rem;
   }
 }
 .pantalla-de-carga {
