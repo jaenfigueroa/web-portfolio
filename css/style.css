@@ -136,6 +136,7 @@
   border: 1px solid #8f88fe;
   background-color: transparent;
   cursor: pointer;
+  width: max-content;
 }
 .seccion1 .caja2__boton:hover {
   background-color: #5b4eff;
@@ -356,6 +357,9 @@
   .seccion1 .cajas .caja2__boton {
     font-size: 1.8rem;
   }
+  .seccion1 .cajas i {
+    font-size: 1.8rem;
+  }
   .seccion1 .seccion1__imagen {
     width: 350px;
     height: 350px;
@@ -391,6 +395,9 @@
     margin-top: -15px;
   }
   .seccion1 .cajas .caja2__boton {
+    font-size: 2rem;
+  }
+  .seccion1 .cajas i {
     font-size: 2rem;
   }
   .seccion1 .seccion1__imagen {

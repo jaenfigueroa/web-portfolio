@@ -84,6 +84,7 @@
       background-color: transparent;
       // color: colores.$azul-0;
       cursor: pointer;
+      width: max-content;
 
       &:hover {
         background-color: darken(colores.$azul-0, 4.5);
@@ -336,6 +337,10 @@
           font-size: 1.8rem;
         }
       }
+
+      i {
+        font-size: 1.8rem;
+      }
     }
 
     .seccion1__imagen {
@@ -381,9 +386,11 @@
       }
       .caja2 {
         &__boton {
-          // background-color: red;
           font-size: 2rem;
         }
+      }
+      i {
+        font-size: 2rem;
       }
     }
 
