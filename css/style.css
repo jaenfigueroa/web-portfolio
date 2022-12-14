@@ -627,8 +627,91 @@
 .seccion4 {
   height: 800px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem 2rem;
+}
+.seccion4 h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+.seccion4 .caja {
+  width: 100%;
+  background: #202020;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.seccion4 .caja span {
+  color: white;
+}
+.seccion4 .caja form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.seccion4 .caja form input {
+  padding: 2rem;
+  outline: none;
+  border-radius: 0.5rem;
+  background-color: #141414;
+  border: 2px solid rgba(255, 255, 255, 0.448);
+  border: none;
+  color: white;
+  border: 1px solid #141414;
+}
+.seccion4 .caja form input::placeholder {
+  color: white;
+}
+.seccion4 .caja form input:focus {
+  border: 1px solid #8f88fe;
+}
+.seccion4 .caja form textarea {
+  padding: 2rem;
+  outline: none;
+  resize: none;
+  border-radius: 0.5rem;
+  height: 100px;
+  background-color: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.426);
+  border: none;
+  color: white;
+  border: 1px solid #141414;
+}
+.seccion4 .caja form textarea::placeholder {
+  color: white;
+}
+.seccion4 .caja form textarea:focus {
+  border: 1px solid #8f88fe;
+}
+.seccion4 .caja form .boton-enviar {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  border: 1px solid #8f88fe;
+  background-color: #7c74fe;
+  color: white;
+}
+.seccion4 .caja form .boton-enviar:hover {
+  background-color: #675bff;
 }
 
+@media (min-width: 650px) {
+  .seccion4 h2 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 900px) {
+  .seccion4 h2 {
+    font-size: 5rem;
+  }
+}
 .pantalla-de-carga {
   width: 100%;
   height: 100vh;
