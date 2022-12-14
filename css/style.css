@@ -569,7 +569,7 @@
   background-color: green;
   width: 100%;
   height: 300px;
-  background: url(../assets/proyectos/ecommerce.png);
+  background: url(../assets/proyectos/ecommerce-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -578,37 +578,37 @@
   max-width: 450px;
 }
 .seccion3__contenedor .proyecto:nth-child(1) {
-  background: url(../assets/proyectos/ecommerce.png);
+  background: url(../assets/proyectos/ecommerce-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(2) {
-  background: url(../assets/proyectos/reloj.png);
+  background: url(../assets/proyectos/reloj-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(3) {
-  background: url(../assets/proyectos/jaencraft.png);
+  background: url(../assets/proyectos/jaencraft-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(4) {
-  background: url(../assets/proyectos/ecommerce.png);
+  background: url(../assets/proyectos/ecommerce-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(6) {
-  background: url(../assets/proyectos/reloj.png);
+  background: url(../assets/proyectos/reloj-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(5) {
-  background: url(../assets/proyectos/jaencraft.png);
+  background: url(../assets/proyectos/jaencraft-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -677,7 +677,7 @@
   outline: none;
   resize: none;
   border-radius: 0.5rem;
-  height: 100px;
+  height: 150px;
   background-color: #141414;
   border: 1px solid rgba(255, 255, 255, 0.426);
   border: none;
