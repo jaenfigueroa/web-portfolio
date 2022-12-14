@@ -632,6 +632,9 @@
   flex-direction: column;
   gap: 3rem;
   padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .seccion4 h2 {
   font-size: 3rem;
@@ -641,6 +644,7 @@
 }
 .seccion4 .caja {
   width: 100%;
+  max-width: 800px;
   background: #202020;
   border-radius: 1rem;
   padding: 3rem 2rem;

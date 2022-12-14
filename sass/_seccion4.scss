@@ -10,6 +10,10 @@
   // background-color: blue;
   padding: 3rem 2rem;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   h2 {
     font-size: 3rem;
     font-weight: 500;
@@ -19,6 +23,7 @@
 
   .caja {
     width: 100%;
+    max-width: 800px;
     background: #202020;
     border-radius: 1rem;
     // background-color: blue;
