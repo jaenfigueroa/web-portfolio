@@ -791,6 +791,44 @@ ol {
   background-color: #141414;
 }
 
+.footer {
+  background: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.074);
+  gap: 3rem;
+  padding: 4rem 1rem;
+}
+.footer .contenedor-redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .contenedor-redes ul {
+  display: flex;
+  gap: 1.5rem;
+}
+.footer .contenedor-redes ul i {
+  font-size: 2.5rem;
+  color: white;
+}
+.footer .contenedor-redes ul i:hover {
+  color: #acaffe;
+}
+.footer p {
+  color: white;
+}
+.footer p a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+.footer p a:hover {
+  text-decoration: underline;
+}
+
 /* ///////////////// */
 .over-hidden {
   overflow: hidden;

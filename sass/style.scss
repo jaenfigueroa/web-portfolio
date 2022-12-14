@@ -32,7 +32,49 @@ ol {
 }
 
 .footer {
-  // background-color: red;
+  background: #141414;
+  // background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.074);
+  gap: 3rem;
+  padding: 4rem 1rem;
+
+  .contenedor-redes {
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+      // background-color: blue;
+      display: flex;
+      gap: 1.5rem;
+
+      i {
+        font-size: 2.5rem;
+        color: white;
+        &:hover {
+          color: colores.$azul-2;
+        }
+      }
+    }
+  }
+
+  p {
+    color: white;
+    a {
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 /* ///////////////// */
