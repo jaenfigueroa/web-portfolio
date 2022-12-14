@@ -24,22 +24,26 @@
   <body class="body over-hidden" id="body">
     <!-- HEADER -->
     <header class="header">
+      <!-- LOGO -->
       <h2 class="header__logo">jaenfigueroa</h2>
+      <!-- NAV -->
       <nav class="header__nav">
+        <!-- ICONO SANDWICH -->
         <i class="fa-solid fa-bars nav__icono" id="icono-nav"></i>
-        <ul class="nav__contenedor" id="contenedor-nav">
-          <li class="nav__item">home</li>
-          <li class="nav__item">about</li>
-          <li class="nav__item">skills</li>
-          <li class="nav__item">proyects</li>
-          <li class="nav__item">contact</li>
+        <!-- CAJA DE LINKS -->
+        <ul class="nav__caja" id="contenedor-nav">
+          <a href="#seccion-home"><li>home</li></a>
+          <a href="#seccion-about"><li>about</li></a>
+          <a href="#seccion-skills"><li>skills</li></a>
+          <a href="#seccion-proyects"><li>proyects</li></a>
+          <a href="#seccion-contact"><li>contact</li></a>
         </ul>
       </nav>
     </header>
     <!-- MAIN -->
-    <main class="main">
+    <main class="main" id="main">
       <!-- seccion 1 - HOME-->
-      <section class="seccion1">
+      <section class="seccion1" id="seccion-home">
         <article class="cajas">
           <div class="caja1">
             <p class="titulo" id="titulo"></p>
@@ -98,13 +102,12 @@
       </section>
 
       <!-- seccion 2 - SKILLS-->
-      <section class="seccion2">
+      <section class="seccion2" id="seccion-skills">
         <div class="caja">
           <div class="caja__contenido">
             <label>Skills</label>
             <p>
-              Tengo buen manejo y uso de las siguientes tecnologias para la creacion de paginas
-              web y prototipos.
+              I have a good command and use of the following technologies for the creation of web pages.
             </p>
           </div>
           <div class="caja__iconos">
@@ -127,7 +130,7 @@
       </section>
 
       <!-- SECCION 3 - PROYECTOS-->
-      <section class="seccion3">
+      <section class="seccion3" id="seccion-proyects">
         <h2>Proyects</h2>
         <div class="seccion3__contenedor">
           <article class="proyecto"></article>
@@ -140,7 +143,7 @@
       </section>
 
       <!-- SECCION 4 - CONTACT-->
-      <section class="seccion4">
+      <section class="seccion4" id="seccion-contact">
         <h2>Contact</h2>
         <div class="caja">
           <span>
