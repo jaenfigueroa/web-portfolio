@@ -1,7 +1,7 @@
 @use 'colores';
 
 .seccion4 {
-  height: 800px;
+  // height: 800px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -102,6 +102,8 @@
 
 @media (min-width: 650px) {
   .seccion4 {
+    padding: 3rem 2rem 6rem;
+
     .caja {
       padding: 5rem 4rem;
       gap: 4rem;
