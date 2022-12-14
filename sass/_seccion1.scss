@@ -79,23 +79,28 @@
       background-color: white;
       // text-transform: uppercase;
       // background-color: darken(colores.$azul-0, 0);
-      color: white;
       border: 1px solid colores.$azul-1;
       background-color: transparent;
       // color: colores.$azul-0;
       cursor: pointer;
       width: max-content;
 
-      &:hover {
-        background-color: darken(colores.$azul-0, 4.5);
-        color: white;
-      }
+      color: white;
+      text-decoration: none;
 
-      &:first-child {
-        background-color: darken(colores.$azul-0, 1);
-        &:hover {
-          background-color: darken(colores.$azul-0, 5);
-        }
+      &:hover {
+        background-color: darken(colores.$azul-0, 3);
+        border: 1px solid darken(colores.$azul-0, 3);
+      }
+    }
+
+    .descargar-cv {
+      background-color: darken(colores.$azul-0, 0);
+      border: 1px solid darken(colores.$azul-0, 0);
+
+      &:hover {
+        background-color: darken(colores.$azul-0, 3);
+        border: 1px solid darken(colores.$azul-0, 3);
       }
     }
   }
@@ -116,6 +121,7 @@
     right: 1.5rem;
     left: 1.5rem;
     display: none;
+    width: max-content;
 
     ul {
       display: flex;
@@ -263,7 +269,8 @@
 }
 /* ///////////////////////////////////////// */
 
-@media (min-width: 620px) {
+// @media (min-width: 620px) {
+@media (min-width: 795px) {
   .seccion1 {
     // background-color: blue;
     flex-direction: row;
@@ -287,13 +294,19 @@
           font-size: 2rem;
         }
       }
+
       .caja2 {
         align-self: flex-start;
 
         &__boton {
+          // a {
           // background-color: red;
           font-size: 1.6rem;
           padding: 0.4rem 1.5rem;
+          color: white;
+          text-decoration: none;
+          // color: red;
+          // }
         }
       }
     }
@@ -335,11 +348,12 @@
         &__boton {
           // background-color: red;
           font-size: 1.8rem;
-        }
-      }
+          // color: greenyellow;
 
-      i {
-        font-size: 1.8rem;
+          i {
+            font-size: 1.8rem;
+          }
+        }
       }
     }
 
@@ -387,10 +401,11 @@
       .caja2 {
         &__boton {
           font-size: 2rem;
+
+          i {
+            font-size: 2rem;
+          }
         }
-      }
-      i {
-        font-size: 2rem;
       }
     }
 

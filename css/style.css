@@ -132,21 +132,24 @@
   padding: 0.4rem 1.3rem;
   border-radius: 0.25rem;
   background-color: white;
-  color: white;
   border: 1px solid #8f88fe;
   background-color: transparent;
   cursor: pointer;
   width: max-content;
+  color: white;
+  text-decoration: none;
 }
 .seccion1 .caja2__boton:hover {
-  background-color: #5b4eff;
-  color: white;
+  background-color: #6256ff;
+  border: 1px solid #6256ff;
 }
-.seccion1 .caja2__boton:first-child {
-  background-color: #6b60ff;
+.seccion1 .caja2 .descargar-cv {
+  background-color: #7065ff;
+  border: 1px solid #7065ff;
 }
-.seccion1 .caja2__boton:first-child:hover {
-  background-color: #584cff;
+.seccion1 .caja2 .descargar-cv:hover {
+  background-color: #6256ff;
+  border: 1px solid #6256ff;
 }
 .seccion1 .seccion1__imagen {
   width: 250px;
@@ -160,6 +163,7 @@
   right: 1.5rem;
   left: 1.5rem;
   display: none;
+  width: max-content;
 }
 .seccion1 .contenedor-redes ul {
   display: flex;
@@ -300,7 +304,7 @@
   }
 }
 /* ///////////////////////////////////////// */
-@media (min-width: 620px) {
+@media (min-width: 795px) {
   .seccion1 {
     flex-direction: row;
     justify-content: space-around;
@@ -327,6 +331,8 @@
   .seccion1 .cajas .caja2__boton {
     font-size: 1.6rem;
     padding: 0.4rem 1.5rem;
+    color: white;
+    text-decoration: none;
   }
   .seccion1 .seccion1__imagen {
     display: initial;
@@ -357,7 +363,7 @@
   .seccion1 .cajas .caja2__boton {
     font-size: 1.8rem;
   }
-  .seccion1 .cajas i {
+  .seccion1 .cajas .caja2__boton i {
     font-size: 1.8rem;
   }
   .seccion1 .seccion1__imagen {
@@ -397,7 +403,7 @@
   .seccion1 .cajas .caja2__boton {
     font-size: 2rem;
   }
-  .seccion1 .cajas i {
+  .seccion1 .cajas .caja2__boton i {
     font-size: 2rem;
   }
   .seccion1 .seccion1__imagen {
