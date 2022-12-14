@@ -1,11 +1,7 @@
 @use 'colores';
 
 .seccion2 {
-  background: colores.$azul-2;
-  background: colores.$azul-1;
-  // background: colores.$azul-0;
-  background: darken(colores.$azul-1, 3);
-  // height: calc(100vh - 5rem);
+  // background: darken(colores.$azul-1, 3);
   background-color: #101010;
   width: 100%;
   display: flex;
@@ -13,7 +9,8 @@
   flex-direction: column;
 
   padding: 4rem 2rem;
-  // background-color: red;
+
+  /* ////////////////////////////////////////////// */
 
   .caja {
     width: 100%;
@@ -141,11 +138,14 @@
   .seccion2 {
     // background-color: red;
     // padding: 6rem;
+
     .caja {
       flex-direction: row;
       // background-color: blue;
       padding: 5rem 5rem;
       justify-content: space-between;
+
+      max-width: 1300px;
 
       .caja__contenido {
         align-items: flex-start;
@@ -166,6 +166,7 @@
         max-width: 1500px;
 
         .contenedor-iconos {
+          max-width: 700px;
           gap: 5rem;
 
           i {
@@ -180,5 +181,7 @@
 @media (min-width: 1200px) {
   .seccion2 {
     padding: 6rem 4rem;
+
+    // padding: 10rem 4rem; /* PROVISIONAL */
   }
 }

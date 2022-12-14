@@ -1,23 +1,18 @@
 @use 'colores';
 
 .seccion1 {
-  // border-top: 1px solid rgba(255, 255, 255, 0.074);
-  // border-bottom: 1px solid rgba(255, 255, 255, 0.074);
-
-  width: 100%;
-  // height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem 1rem;
-  // border: 1px solid red;
   background: linear-gradient(90deg, #202020, #151515);
-
+  display: flex;
   flex-direction: column-reverse;
-  // height: 250px;
-  height: calc(100vh - 5rem);
+  align-items: center;
   justify-content: space-evenly;
   position: relative;
+  width: 100%;
+  height: 100vh;
+
+  padding: 3rem 1rem;
+
+  /* ////////////////////////////////////////////// */
 
   .cajas {
     width: 260px;
@@ -25,12 +20,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // border: 1px solid white;
     gap: 3rem;
   }
 
   .caja1 {
-    // background-color: rgba(255, 255, 0, 0.464);
     height: 80px;
     display: flex;
     flex-direction: column;
@@ -381,6 +374,9 @@
   .seccion1 {
     // background-color: crimson;
     height: calc(100vh - 8rem);
+
+    // padding-top: 10rem;
+    // height: 100vh; /* PROVISIONAL */
 
     .cajas {
       width: 510px;
