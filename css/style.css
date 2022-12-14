@@ -808,7 +808,7 @@ ol {
 }
 .footer .contenedor-redes ul {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 .footer .contenedor-redes ul i {
   font-size: 2.5rem;
@@ -824,6 +824,7 @@ ol {
   color: white;
   font-weight: 600;
   text-decoration: none;
+  color: #acaffe;
 }
 .footer p a:hover {
   text-decoration: underline;
