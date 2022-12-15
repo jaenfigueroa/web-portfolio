@@ -92,6 +92,7 @@
   width: 100%;
   min-width: 330px;
   height: 100vh;
+  min-height: 550px;
   padding: 3rem 1rem;
   /* ////////////////////////////////////////////// */
 }
