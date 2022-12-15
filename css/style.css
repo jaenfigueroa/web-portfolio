@@ -325,6 +325,7 @@
   }
   .seccion1 .contenedor-redes ul {
     gap: 1.5rem;
+    align-items: center; /* PROV */
   }
   .seccion1 .contenedor-redes ul i {
     font-size: 1.8rem;
@@ -632,17 +633,101 @@
   background-position: center;
   background-size: cover;
   border-radius: 1rem;
-  max-width: 450px;
-  max-width: 500px; /* PROV */
+  max-width: 500px;
   overflow: hidden;
   transition: 0.3s;
+  /* DIFERENTES FONDOS */
 }
 .seccion3__contenedor .proyecto .contenido {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6));
   width: 100%;
   height: 100%;
   opacity: 0;
   transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 2rem;
+}
+.seccion3__contenedor .proyecto .contenido .contenedor-datos {
+  width: 100%;
+  position: absolute;
+  top: 3rem;
+  padding: 1rem 0 2rem;
+  padding: 1rem 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-shadow: 0 0 15px black;
+}
+.seccion3__contenedor .proyecto .contenido .contenedor-datos .nombre {
+  font-size: 1.9rem;
+  font-size: 2rem;
+  font-size: 2.6rem;
+  font-size: 2.8rem;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.seccion3__contenedor .proyecto .contenido .contenedor-datos .fecha {
+  color: white;
+}
+.seccion3__contenedor .proyecto .contenido .contenedor-datos .descripcion {
+  color: white;
+  text-align: center;
+}
+.seccion3__contenedor .proyecto .contenido .contenedor-botones {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  position: relative;
+  bottom: -210px;
+}
+.seccion3__contenedor .proyecto .contenido .contenedor-botones button {
+  background-color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.seccion3__contenedor .proyecto .contenido .contenedor-botones button:hover {
+  background: #5d51ff;
+  color: white;
+}
+.seccion3__contenedor .proyecto:nth-child(2) {
+  background: url(../assets/proyectos/reloj-3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.seccion3__contenedor .proyecto:nth-child(3) {
+  background: url(../assets/proyectos/jaencraft-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.seccion3__contenedor .proyecto:nth-child(4) {
+  background: url(../assets/proyectos/jaencraft-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.seccion3__contenedor .proyecto:nth-child(5) {
+  background: url(../assets/proyectos/ecommerce-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.seccion3__contenedor .proyecto:nth-child(6) {
+  background: url(../assets/proyectos/reloj-3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .seccion3__contenedor .proyecto:hover .contenido {
   opacity: 1;
