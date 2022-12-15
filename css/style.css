@@ -531,7 +531,7 @@
 }
 @media (min-width: 650px) {
   .seccion2 {
-    padding: 5rem;
+    padding: 6rem;
   }
   .seccion2 .caja {
     gap: 6rem;
@@ -548,9 +548,6 @@
 }
 /* DE AQUI MAS GANDRE SOLUCIONADO 856+ */
 @media (min-width: 900px) {
-  .seccion2 {
-    padding: 4.5rem;
-  }
   .seccion2 .caja {
     padding: 5rem 5rem;
     justify-content: space-between;
@@ -584,7 +581,6 @@
 }
 @media (min-width: 1200px) {
   .seccion2 {
-    padding: 5rem 4rem;
     padding: 7rem 4rem;
   }
   .seccion2 .caja {
@@ -612,6 +608,7 @@
   flex-direction: column;
   gap: 5rem;
   padding: 6rem 2rem;
+  padding: 4rem 2rem;
   /* ////////////////////////////////////////////// */
 }
 .seccion3 h2 {
@@ -643,6 +640,8 @@
 @media (min-width: 650px) {
   .seccion3 {
     padding: 8rem 4rem;
+    padding: 7rem 4rem;
+    padding: 6.5rem 4rem;
     gap: 6rem;
   }
   .seccion3 .seccion3__contenedor .proyecto {
@@ -672,6 +671,7 @@
   align-items: center;
   gap: 3rem;
   padding: 6rem 2rem;
+  padding: 4rem 2rem;
   /* ////////////////////////////////////////////// */
 }
 .seccion4 h2 {
@@ -750,6 +750,8 @@
 @media (min-width: 650px) {
   .seccion4 {
     padding: 8rem 4rem;
+    padding: 7rem 4rem;
+    padding: 6.5rem 4rem;
     gap: 5rem;
   }
   .seccion4 .caja {
