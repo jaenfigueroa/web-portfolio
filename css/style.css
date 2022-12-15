@@ -77,7 +77,6 @@
     border-bottom: none;
   }
 }
-/* seccion activo, la seccion visible */
 .seccion1 {
   background: linear-gradient(90deg, #202020, #151515);
   display: flex;
@@ -855,7 +854,7 @@ a {
 
 /* para quE cuando use el nav entre secciones; no se tape le titulo de la seccion */
 section[id] {
-  scroll-margin-top: 70px;
+  scroll-margin-top: 40px;
 }
 
 /* para que lo que este fuera del contenedor , no se muestre */
