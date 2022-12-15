@@ -315,7 +315,14 @@
   }
 }
 /* ///////////////////////////////////////// */
-
+@media (min-width: 500px) {
+  .seccion1 {
+    .contenedor-redes {
+      display: block;
+      bottom: 3rem;
+    }
+  }
+}
 @media (min-width: 795px) {
   .seccion1 {
     flex-direction: row;
@@ -329,14 +336,9 @@
     height: 100vh;
 
     .contenedor-redes {
-      display: block;
-      bottom: 4rem;
-
       ul {
         gap: 1.5rem;
-
-        // background-color: red;
-        align-items: center; /* PROV */
+        align-items: center;
 
         i {
           font-size: 1.8rem;
