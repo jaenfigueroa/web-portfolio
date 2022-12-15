@@ -28,10 +28,8 @@ iconoNav.addEventListener('click', () => {
 /* para que al sellecionar una seccion del nav, se quite el blur y se esconda la caja de items */
 
 const itemNavTotal = document.querySelectorAll('.item-nav')
-console.log(itemNavTotal)
 
 itemNavTotal.forEach((item) => {
-  console.log(item)
   item.addEventListener('click', () => {
     alternarBlur(false)
 
@@ -39,7 +37,7 @@ itemNavTotal.forEach((item) => {
   })
 })
 
-//ANIMACION DE LA SECCION1 - PRESENTACION ///////////////
+//ANIMACION DE LA SECCION1 - PRESENTACION ///////////////////
 
 function animar() {
   titulo.classList.add('titulo--animada')
@@ -60,11 +58,39 @@ setInterval(() => {
   animar()
 }, 8000)
 
-/////////////////////////////////////////////////////
-//PRIMERA CARGA DE LA PAGINA///////////////////////
+//PRIMERA CARGA DE LA PAGINA///////////////////////////////////
 
-///////////////////////////////////////////////////
 window.addEventListener('load', () => {
   pantallaDeCarga.style.display = 'none'
   body.classList.remove('over-hidden')
+})
+
+//SECCION ACTIVO NAV PINTADO////////////////////////////////////////PRUEBASSSSSSSSSSS
+const menuLinks = document.querySelectorAll('.nav__caja a[href^="#"]')
+
+////////////////////////////////////////////////////
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      const id = entry.target.getAttribute('id')
+      const menuLink = document.querySelector(`.nav__caja a[href="#${id}"]`)
+
+      if (entry.isIntersecting) {
+        document.querySelector('.nav__caja a.selected').classList.remove('selected')
+        menuLink.classList.add('selected')
+      }
+    })
+  },
+  // {rootMargin: '-30% 0px -70% 0px'}
+  {rootMargin: '-70% 0px -30% 0px'}
+)
+
+////////////////////////////////////////////////////
+menuLinks.forEach((menuLink) => {
+  const hash = menuLink.getAttribute('href')
+  const target = document.querySelector(hash)
+
+  if (target) {
+    observer.observe(target)
+  }
 })

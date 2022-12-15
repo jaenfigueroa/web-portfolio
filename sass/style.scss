@@ -30,18 +30,26 @@ a {
 .blur {
   filter: blur(4px);
 }
-/* ///////////////// */
+
+/* para quE cuando use el nav entre secciones; no se tape le titulo de la seccion */
+section[id] {
+  scroll-margin-top: 70px;
+}
+
+/* para que lo que este fuera del contenedor , no se muestre */
+.over-hidden {
+  overflow: hidden;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+
 .body {
   background-color: colores.$negro-1;
 }
 
-.main {
-  // background-color: rgba(172, 255, 47, 0.377);
-}
-
+/* ///////////////////////////////////////////////////////////////// */
 .footer {
   background: #141414;
-  // background-color: green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,14 +58,12 @@ a {
   padding: 4rem 1rem;
 
   .contenedor-redes {
-    // background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     ul {
-      // background-color: blue;
       display: flex;
       gap: 2rem;
 
@@ -84,9 +90,4 @@ a {
       }
     }
   }
-}
-
-/* ///////////////// */
-.over-hidden {
-  overflow: hidden;
 }

@@ -67,9 +67,12 @@
           color: blue;
           color: colores.$azul-2;
           border-bottom: 1.5px solid colores.$azul-2;
+          // background-color: yellow;
         }
 
-        &:first-child {
+        &.selected {
+          // background-color: red;
+          color: blue;
           color: colores.$azul-2;
           border-bottom: 1.5px solid colores.$azul-2;
         }
@@ -96,3 +99,10 @@
     }
   }
 }
+
+/* seccion activo, la seccion visible */
+
+// .seccion-activo {
+//   color: colores.$azul-2 !important;
+//   border-bottom: 1.5px solid colores.$azul-2 !important;
+// }
