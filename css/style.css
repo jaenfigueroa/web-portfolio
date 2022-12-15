@@ -748,7 +748,7 @@
 .seccion3__contenedor .proyecto {
   width: 100%;
   height: 300px;
-  background: url(../assets/proyectos/ecommerce-2.png);
+  background: url(../assets/proyectos/ecommerce-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -821,31 +821,31 @@
   color: white;
 }
 .seccion3__contenedor .proyecto:nth-child(2) {
-  background: url(../assets/proyectos/reloj-3.png);
+  background: url(../assets/proyectos/reloj-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(3) {
-  background: url(../assets/proyectos/jaencraft-2.png);
+  background: url(../assets/proyectos/jaencraft-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(4) {
-  background: url(../assets/proyectos/puzzle.png);
+  background: url(../assets/proyectos/puzzle-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(5) {
-  background: url(../assets/proyectos/tareas.png);
+  background: url(../assets/proyectos/tareas-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(6) {
-  background: url(../assets/proyectos/ppt.png);
+  background: url(../assets/proyectos/ppt-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
