@@ -77,6 +77,11 @@
     border-bottom: none;
   }
 }
+@media (min-width: 650px) {
+  .header li {
+    font-size: 1.7rem;
+  }
+}
 .seccion1 {
   background: linear-gradient(90deg, #202020, #151515);
   display: flex;
@@ -672,10 +677,10 @@
   text-align: center;
   color: white;
   font-weight: 500;
-  margin-bottom: 1.5rem;
 }
 .seccion3__contenedor .proyecto .contenido .contenedor-datos .fecha {
   color: white;
+  margin-bottom: 1.5rem;
 }
 .seccion3__contenedor .proyecto .contenido .contenedor-datos .descripcion {
   color: white;
