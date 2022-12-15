@@ -39,6 +39,9 @@
       overflow: hidden;
       transition: 0.3s;
 
+      min-height: 330px;
+      // height: 400px; /* PROV */
+
       .contenido {
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
         background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6));
@@ -55,6 +58,8 @@
         position: relative;
 
         padding: 2rem;
+        gap: 3rem;
+        // background-color: green;
 
         .contenedor-datos {
           // background-color: blue;
@@ -97,8 +102,11 @@
           display: flex;
           gap: 2rem;
           width: max-content;
-          position: relative;
-          bottom: -210px;
+          // bottom: -210px;
+          // top: 0;
+          bottom: 2.5rem;
+          position: absolute;
+          height: max-content;
 
           button {
             background-color: white;
@@ -110,7 +118,6 @@
             &:hover {
               background: darken($color: colores.$azul-0, $amount: 4);
               color: white;
-              // box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
             }
           }
         }

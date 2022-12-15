@@ -756,6 +756,7 @@
   max-width: 500px;
   overflow: hidden;
   transition: 0.3s;
+  min-height: 330px;
   /* DIFERENTES FONDOS */
 }
 .seccion3__contenedor .proyecto .contenido {
@@ -771,6 +772,7 @@
   align-items: center;
   position: relative;
   padding: 2rem;
+  gap: 3rem;
 }
 .seccion3__contenedor .proyecto .contenido .contenedor-datos {
   width: 100%;
@@ -806,8 +808,9 @@
   display: flex;
   gap: 2rem;
   width: max-content;
-  position: relative;
-  bottom: -210px;
+  bottom: 2.5rem;
+  position: absolute;
+  height: max-content;
 }
 .seccion3__contenedor .proyecto .contenido .contenedor-botones button {
   background-color: white;
