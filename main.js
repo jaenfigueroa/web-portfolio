@@ -1,26 +1,45 @@
-//PRIMERA CARGA DE LA PAGINA///////////////////////
-const pantallaDeCarga = document.getElementById('pantalla-de-carga')
 const body = document.getElementById('body')
-const main = document.getElementById('main')
+const footer = document.getElementById('footer')
 
-///////////////////////////////////////////////////
-window.addEventListener('load', () => {
-  pantallaDeCarga.style.display = 'none'
-  body.classList.remove('over-hidden')
-})
+const contenedorNav = document.getElementById('contenedor-nav')
+const iconoNav = document.getElementById('icono-nav')
+const main = document.getElementById('main')
+const titulo = document.getElementById('titulo')
+const cargo = document.getElementById('cargo')
+
+const pantallaDeCarga = document.getElementById('pantalla-de-carga')
 
 //HEADER/////////////////////////////////////////////////
-const iconoNav = document.getElementById('icono-nav')
-const contenedorNav = document.getElementById('contenedor-nav')
+function alternarBlur(valor) {
+  if (valor) {
+    main.classList.add('blur')
+    footer.classList.add('blur')
+  } else {
+    main.classList.remove('blur')
+    footer.classList.remove('blur')
+  }
+}
 
 iconoNav.addEventListener('click', () => {
   contenedorNav.classList.toggle('nav__caja--visible')
-  // main.classList.toggle('blur')
+  alternarBlur(true)
 })
 
-//SECCION 1///////////////////////////////////////////
-const titulo = document.getElementById('titulo')
-const cargo = document.getElementById('cargo')
+/* para que al sellecionar una seccion del nav, se quite el blur y se esconda la caja de items */
+
+const itemNavTotal = document.querySelectorAll('.item-nav')
+console.log(itemNavTotal)
+
+itemNavTotal.forEach((item) => {
+  console.log(item)
+  item.addEventListener('click', () => {
+    alternarBlur(false)
+
+    contenedorNav.classList.toggle('nav__caja--visible')
+  })
+})
+
+//ANIMACION DE LA SECCION1 - PRESENTACION ///////////////
 
 function animar() {
   titulo.classList.add('titulo--animada')
@@ -42,8 +61,10 @@ setInterval(() => {
 }, 8000)
 
 /////////////////////////////////////////////////////
-/*
- *! hola
- */
+//PRIMERA CARGA DE LA PAGINA///////////////////////
 
-//? hola
+///////////////////////////////////////////////////
+window.addEventListener('load', () => {
+  pantallaDeCarga.style.display = 'none'
+  body.classList.remove('over-hidden')
+})
