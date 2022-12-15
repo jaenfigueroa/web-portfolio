@@ -65,6 +65,17 @@ setInterval(() => {
   animar()
 }, 8000)
 
+//INTERCALAR BOTON DE DESCARGAR CV Y CONTACT
+const botonDescargarCV = document.getElementById('boton-descargar-cv')
+const botonContact = document.getElementById('boton-contact')
+
+botonContact.addEventListener('mouseenter', () => {
+  botonDescargarCV.classList.add('boton2')
+})
+
+botonContact.addEventListener('mouseleave', () => {
+  botonDescargarCV.classList.remove('boton2')
+})
 /////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
 //PRIMERA CARGA DE LA PAGINA////////////////////////////////////////////////////////

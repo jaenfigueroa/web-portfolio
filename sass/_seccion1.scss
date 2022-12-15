@@ -69,14 +69,17 @@
       border: none;
       padding: 0.4rem 1.3rem;
       border-radius: 0.25rem;
-      background-color: white;
-      border: 1px solid colores.$azul-1;
-      background-color: transparent;
       cursor: pointer;
       width: max-content;
 
       color: white;
       text-decoration: none;
+
+      background-color: transparent;
+      border: 1px solid colores.$azul-1;
+
+      // border: 1px solid #333;
+      // border: 1px solid rgb(125, 125, 125);
 
       &:hover {
         background-color: darken(colores.$azul-0, 3);
@@ -88,10 +91,18 @@
       background-color: darken(colores.$azul-0, 0);
       border: 1px solid darken(colores.$azul-0, 0);
 
+      // background-color: rgb(89, 89, 89);
+      // border: 1px solid rgb(78, 78, 78);
+
       &:hover {
         background-color: darken(colores.$azul-0, 3);
         border: 1px solid darken(colores.$azul-0, 3);
       }
+    }
+
+    .boton2 {
+      background-color: transparent;
+      border: 1px solid colores.$azul-1;
     }
   }
   .seccion1__imagen {

@@ -141,13 +141,12 @@
   border: none;
   padding: 0.4rem 1.3rem;
   border-radius: 0.25rem;
-  background-color: white;
-  border: 1px solid #8f88fe;
-  background-color: transparent;
   cursor: pointer;
   width: max-content;
   color: white;
   text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #8f88fe;
 }
 .seccion1 .caja2__boton:hover {
   background-color: #6256ff;
@@ -160,6 +159,10 @@
 .seccion1 .caja2 .descargar-cv:hover {
   background-color: #6256ff;
   border: 1px solid #6256ff;
+}
+.seccion1 .caja2 .boton2 {
+  background-color: transparent;
+  border: 1px solid #8f88fe;
 }
 .seccion1 .seccion1__imagen {
   width: 250px;
