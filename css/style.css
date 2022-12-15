@@ -832,19 +832,19 @@
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(4) {
-  background: url(../assets/proyectos/jaencraft-2.png);
+  background: url(../assets/proyectos/puzzle.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(5) {
-  background: url(../assets/proyectos/ecommerce-2.png);
+  background: url(../assets/proyectos/tareas.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(6) {
-  background: url(../assets/proyectos/reloj-3.png);
+  background: url(../assets/proyectos/ppt.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
