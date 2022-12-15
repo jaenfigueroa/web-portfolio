@@ -483,6 +483,7 @@
   text-align: center;
   font-weight: 500;
   color: white;
+  color: #acaffe;
 }
 .seccion2 .caja__contenido p {
   text-align: center;
@@ -737,6 +738,7 @@
   font-size: 3rem;
   font-weight: 500;
   text-align: center;
+  color: #acaffe;
 }
 .seccion3__contenedor {
   width: 100%;
