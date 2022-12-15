@@ -924,107 +924,145 @@
   flex-direction: column;
   gap: 3rem;
 }
-.seccion4 .caja span {
-  color: white;
-  text-align: center;
-}
-.seccion4 .caja form {
+.seccion4 .caja .contenido {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
   gap: 2rem;
+  gap: 1rem;
 }
-.seccion4 .caja form div {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.seccion4 .caja form div input {
-  padding: 2rem;
-  outline: none;
-  border-radius: 0.5rem;
-  background-color: #141414;
-  border: 2px solid rgba(255, 255, 255, 0.448);
-  border: none;
+.seccion4 .caja .contenido .pregunta {
   color: white;
-  border: 1px solid #141414;
-  width: 100%;
+  font-size: 2.2rem;
+  line-height: 4rem;
 }
-.seccion4 .caja form div input::placeholder {
-  color: white;
+.seccion4 .caja .contenido .frase {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #8f88fe;
+  color: #acaffe;
 }
-.seccion4 .caja form div input:focus {
+.seccion4 .caja .contenido .boton {
+  padding: 0.5rem 1.5rem;
+  font-size: 2rem;
   border: 1px solid #8f88fe;
-}
-.seccion4 .caja form textarea {
-  padding: 2rem;
-  outline: none;
-  resize: none;
-  border-radius: 0.5rem;
-  height: 150px;
-  background-color: #141414;
-  border: 1px solid rgba(255, 255, 255, 0.426);
-  border: none;
-  color: white;
-  border: 1px solid #141414;
-}
-.seccion4 .caja form textarea::placeholder {
-  color: white;
-}
-.seccion4 .caja form textarea:focus {
-  border: 1px solid #8f88fe;
-}
-.seccion4 .caja form .boton-enviar {
-  margin-top: 1rem;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  border: none;
-  border: 1px solid #8f88fe;
-  background-color: #7c74fe;
-  color: white;
   background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.5);
-}
-.seccion4 .caja form .boton-enviar:hover {
-  background-color: #675bff;
-  background-color: #6b60ff;
-  background-color: #7065ff;
   color: white;
-  border: 2px solid #7065ff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.seccion4 .caja .contenido .boton i {
+  font-size: 2rem;
+}
+.seccion4 .caja .contenido .boton:hover {
+  background: #7065ff;
+}
+.seccion4 .caja .contenido .correo {
+  color: white;
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  margin-top: 4rem;
+  align-self: flex-end;
 }
 
-@media (min-width: 550px) {
-  .seccion4 .caja form div {
-    flex-direction: row;
+@media (min-width: 475px) {
+  .seccion4 .caja {
+    padding: 3rem;
   }
-  .seccion4 .caja form div input {
-    width: 50%;
+  .seccion4 .caja .contenido .pregunta {
+    font-size: 2.6rem;
+  }
+  .seccion4 .caja .contenido .frase {
+    font-size: 4rem;
+  }
+  .seccion4 .caja .contenido .boton {
+    align-self: flex-start;
+  }
+  .seccion4 .caja .contenido .correo {
+    font-size: 2.2rem;
+    align-self: flex-end;
   }
 }
 @media (min-width: 650px) {
   .seccion4 {
     padding: 6.5rem 4rem 8rem;
+    padding: 6.5rem 4rem 6.5rem;
     gap: 5rem;
-  }
-  .seccion4 .caja {
-    padding: 5rem 4rem;
-    gap: 4rem;
   }
   .seccion4 h2 {
     font-size: 4rem;
   }
+  .seccion4 .caja {
+    padding: 4rem;
+    max-width: 650px;
+    max-width: 750px;
+    padding: 5rem 4rem;
+    gap: 4rem;
+  }
+  .seccion4 .caja .contenido {
+    gap: 3rem;
+    gap: 2rem;
+  }
+  .seccion4 .caja .contenido .pregunta {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  .seccion4 .caja .contenido .frase {
+    font-size: 5rem;
+  }
+  .seccion4 .caja .contenido .boton {
+    align-self: flex-start;
+    font-size: 3rem;
+  }
+  .seccion4 .caja .contenido .boton i {
+    font-size: 3rem;
+  }
+  .seccion4 .caja .contenido .correo {
+    font-size: 2.6rem;
+    margin-top: 7rem;
+    align-self: flex-end;
+  }
 }
-@media (min-width: 900px) {
-  .seccion4 .caja span {
-    font-size: 1.8rem;
+@media (min-width: 980px) {
+  .seccion4 {
+    padding: 8rem 4rem 8rem;
   }
   .seccion4 h2 {
     font-size: 5rem;
   }
-}
-@media (min-width: 980px) {
-  .seccion4 .caja form button {
-    font-size: 1.8rem;
+  .seccion4 .caja {
+    padding: 5rem 5rem;
+    max-width: 950px;
+  }
+  .seccion4 .caja .contenido {
+    gap: 2.5rem;
+  }
+  .seccion4 .caja .contenido .pregunta {
+    font-size: 3rem;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    line-height: 6.5rem;
+  }
+  .seccion4 .caja .contenido .frase {
+    font-size: 5rem;
+    font-size: 6rem;
+  }
+  .seccion4 .caja .contenido .boton {
+    align-self: flex-start;
+    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+  .seccion4 .caja .contenido .boton i {
+    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+  .seccion4 .caja .contenido .correo {
+    font-size: 2.6rem;
+    font-size: 3rem;
+    font-size: 3.2rem;
+    margin-top: 7rem;
+    margin-top: 8rem;
   }
 }
 .footer {
