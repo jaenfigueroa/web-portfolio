@@ -748,7 +748,7 @@
 .seccion3__contenedor .proyecto {
   width: 100%;
   height: 300px;
-  background: url(../assets/proyectos/ecommerce-1.png);
+  background: url(../assets/proyectos/ecommerce-0.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -827,7 +827,7 @@
   background-size: cover;
 }
 .seccion3__contenedor .proyecto:nth-child(3) {
-  background: url(../assets/proyectos/jaencraft-1.png);
+  background: url(../assets/proyectos/jaencraft-0.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
