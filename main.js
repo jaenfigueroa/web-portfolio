@@ -11,18 +11,13 @@ const pantallaDeCarga = document.getElementById('pantalla-de-carga')
 
 //HEADER/////////////////////////////////////////////////
 function alternarBlur(valor) {
-  if (valor) {
-    main.classList.add('blur')
-    footer.classList.add('blur')
-  } else {
-    main.classList.remove('blur')
-    footer.classList.remove('blur')
-  }
+  main.classList.toggle('blur')
+  footer.classList.toggle('blur')
 }
 
 iconoNav.addEventListener('click', () => {
   contenedorNav.classList.toggle('nav__caja--visible')
-  alternarBlur(true)
+  alternarBlur()
 })
 
 /* para que al sellecionar una seccion del nav, se quite el blur y se esconda la caja de items */
@@ -31,7 +26,7 @@ const itemNavTotal = document.querySelectorAll('.item-nav')
 
 itemNavTotal.forEach((item) => {
   item.addEventListener('click', () => {
-    alternarBlur(false)
+    alternarBlur()
 
     contenedorNav.classList.toggle('nav__caja--visible')
   })
