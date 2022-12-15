@@ -68,6 +68,56 @@
             color: colores.$azul-1;
           }
         }
+
+        .icono-typescript {
+          background-image: url(../assets/languages/typescript.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          width: 4.5rem;
+          height: 4.5rem;
+
+          &:hover {
+            background-image: url(../assets/languages/typescript-2.svg);
+          }
+        }
+
+        .icono-express {
+          background-image: url(../assets/languages/express.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          width: 6rem;
+          height: 6rem;
+
+          &:hover {
+            background-image: url(../assets/languages/express-2.svg);
+          }
+        }
+        .icono-npm {
+          background-image: url(../assets/languages/npm.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          width: 8.5rem;
+          height: 4rem;
+
+          &:hover {
+            background-image: url(../assets/languages/npm-2.svg);
+          }
+        }
+        .icono-mdb {
+          background-image: url(../assets/languages/mongodb.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          width: 14rem;
+          height: 4rem;
+
+          &:hover {
+            background-image: url(../assets/languages/mongodb-2.svg);
+          }
+        }
       }
     }
   }
