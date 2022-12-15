@@ -9,7 +9,6 @@
   flex-direction: column;
 
   padding: 4rem 2rem;
-
   /* ////////////////////////////////////////////// */
 
   .caja {
@@ -20,14 +19,11 @@
     padding: 3.5rem;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 5rem;
     justify-content: space-between;
-    // background-color: blue;
 
     &__contenido {
       width: 100%;
-      // height: 200px;
-      // background-color: greenyellow;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -47,26 +43,20 @@
     }
 
     .caja__iconos {
-      // background-color: rgb(140, 52, 184);
       display: flex;
       justify-content: center;
       align-items: center;
-      // padding: 2rem 0;
 
       .contenedor-iconos {
         display: flex;
         flex-wrap: wrap;
         max-width: 800px;
-        // background-color: rgb(27, 133, 29);
-        // border: 1px solid white;
-
         align-items: center;
         justify-content: center;
         gap: 3rem;
 
         i {
           font-size: 5rem;
-          // background-color: red;
           max-width: 80px;
           max-height: 80px;
           display: flex;
@@ -83,14 +73,22 @@
   }
 }
 
+/* DE AQUI MAS GRANDE SOLUCIONADO */
+
 @media (min-width: 420px) {
   .seccion2 {
-    // background-color: yellow;
     .caja {
       .caja__iconos {
+        min-width: 350px;
+        max-width: 350px;
+        align-self: center;
+
         .contenedor-iconos {
+          justify-content: flex-start; /* PROVISONAL */
+
           i {
             font-size: 6rem;
+            font-size: 7rem;
           }
         }
       }
@@ -100,11 +98,10 @@
 
 @media (min-width: 530px) {
   .seccion2 {
-    // background-color: blue;
-
     .caja {
       .caja__iconos {
-        // background-color: aquamarine;
+        min-width: 420px;
+        max-width: 420px;
 
         .contenedor-iconos {
           gap: 5rem;
@@ -120,7 +117,7 @@
 
 @media (min-width: 650px) {
   .seccion2 {
-    padding: 4rem;
+    padding: 5rem;
 
     .caja {
       gap: 6rem;
@@ -134,24 +131,35 @@
   }
 }
 
+@media (min-width: 740px) {
+  .seccion2 {
+    .caja {
+      .caja__iconos {
+        max-width: 540px;
+        align-self: center;
+      }
+    }
+  }
+}
+
+/* DE AQUI MAS GANDRE SOLUCIONADO 856+ */
 @media (min-width: 900px) {
   .seccion2 {
-    // background-color: red;
-    // padding: 6rem;
+    padding: 4.5rem;
 
     .caja {
-      flex-direction: row;
-      // background-color: blue;
       padding: 5rem 5rem;
       justify-content: space-between;
 
       max-width: 1300px;
 
+      /* ////////////////////////////////////////////// */
       .caja__contenido {
         align-items: flex-start;
-        // background-color: violet;
-        min-width: 200px;
-        max-width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
 
         label {
           font-size: 5rem;
@@ -180,8 +188,31 @@
 
 @media (min-width: 1200px) {
   .seccion2 {
-    padding: 6rem 4rem;
+    padding: 5rem 4rem;
+    padding: 7rem 4rem;
 
-    // padding: 10rem 4rem; /* PROVISIONAL */
+    .caja {
+      flex-direction: row;
+      // background-color: red;
+
+      .caja__contenido {
+        // background-color: blue;
+        align-items: flex-start;
+        flex-grow: 1;
+
+        label {
+          text-align: start;
+        }
+        span {
+          text-align: start;
+        }
+      }
+      .caja__iconos {
+        min-width: 750px;
+        // background-color: green;
+      }
+    }
   }
 }
+
+/* TERMINADO MOVER CON EL NAV */

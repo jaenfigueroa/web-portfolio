@@ -4,10 +4,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 
   padding: 6rem 2rem;
 
@@ -37,7 +37,6 @@
     }
 
     form {
-      // background-color: red;
       display: flex;
       flex-direction: column;
       gap: 2rem;
@@ -62,7 +61,6 @@
       }
       textarea {
         padding: 2rem;
-        // background-color: green;
         outline: none;
         resize: none;
         border-radius: 0.5rem;
@@ -101,7 +99,8 @@
 
 @media (min-width: 650px) {
   .seccion4 {
-    padding: 3rem 2rem 6rem;
+    padding: 8rem 4rem;
+    gap: 5rem;
 
     .caja {
       padding: 5rem 4rem;

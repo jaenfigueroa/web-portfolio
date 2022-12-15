@@ -6,9 +6,8 @@
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  padding-top: 20px;
 
-  padding: 6rem 4rem;
+  padding: 6rem 2rem;
 
   /* ////////////////////////////////////////////// */
 
@@ -20,17 +19,13 @@
   }
 
   &__contenedor {
-    // border: 1px solid rgba(255, 255, 255, 0.493);
     width: 100%;
     display: flex;
     gap: 4rem;
     flex-wrap: wrap;
     justify-content: center;
-    // align-items: center;
     align-content: flex-start;
-    // background-color: aqua;
     align-content: flex-start;
-    // background-color: yellow;
 
     .proyecto {
       background-color: green;
@@ -86,6 +81,9 @@
 
 @media (min-width: 650px) {
   .seccion3 {
+    padding: 8rem 4rem;
+    gap: 6rem;
+
     h2 {
       font-size: 4rem;
     }
@@ -94,9 +92,10 @@
 
 @media (min-width: 900px) {
   .seccion3 {
-    // padding-top: 8rem; /* PROVISONAL */
     h2 {
       font-size: 5rem;
     }
   }
 }
+
+/* TERMINADO MOVER CON EL NAV */
