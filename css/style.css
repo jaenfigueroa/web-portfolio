@@ -547,7 +547,7 @@
   background-image: url(../assets/languages/npm-2.svg);
 }
 .seccion2 .caja .caja__iconos .contenedor-iconos .icono-mdb {
-  background-image: url(../assets/languages/mongodb.svg);
+  background-image: url(../assets/languages/mdb.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -555,7 +555,7 @@
   height: 6.5rem;
 }
 .seccion2 .caja .caja__iconos .contenedor-iconos .icono-mdb:hover {
-  background-image: url(../assets/languages/mongodb-2.svg);
+  background-image: url(../assets/languages/mdb-2.svg);
 }
 
 /* DE AQUI MAS GRANDE SOLUCIONADO */
