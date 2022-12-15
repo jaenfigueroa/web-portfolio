@@ -790,6 +790,45 @@
     font-size: 1.8rem;
   }
 }
+.footer {
+  background: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.074);
+  gap: 4rem;
+  padding: 6rem 1rem 4rem;
+}
+.footer .contenedor-redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .contenedor-redes ul {
+  display: flex;
+  gap: 2rem;
+}
+.footer .contenedor-redes ul i {
+  font-size: 2.5rem;
+  color: white;
+}
+.footer .contenedor-redes ul i:hover {
+  color: #acaffe;
+}
+.footer p {
+  color: white;
+}
+.footer p a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  color: #acaffe;
+}
+.footer p a:hover {
+  text-decoration: underline;
+}
+
 .pantalla-de-carga {
   width: 100%;
   height: 100vh;
@@ -884,44 +923,6 @@ section[id] {
   background-color: #141414;
 }
 
-/* ///////////////////////////////////////////////////////////////// */
-.footer {
-  background: #141414;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.074);
-  gap: 4rem;
-  padding: 6rem 1rem;
-}
-.footer .contenedor-redes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.footer .contenedor-redes ul {
-  display: flex;
-  gap: 2rem;
-}
-.footer .contenedor-redes ul i {
-  font-size: 2.5rem;
-  color: white;
-}
-.footer .contenedor-redes ul i:hover {
-  color: #acaffe;
-}
-.footer p {
-  color: white;
-}
-.footer p a {
-  color: white;
-  font-weight: 600;
-  text-decoration: none;
-  color: #acaffe;
-}
-.footer p a:hover {
-  text-decoration: underline;
-}
+/* FOOTER////////////////////////////////////////////////////////////// */
 
 /*# sourceMappingURL=style.css.map */
