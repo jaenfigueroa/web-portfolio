@@ -9,8 +9,7 @@
   align-items: center;
   gap: 3rem;
 
-  padding: 6rem 2rem;
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 6rem;
 
   /* ////////////////////////////////////////////// */
 
@@ -123,9 +122,7 @@
 
 @media (min-width: 650px) {
   .seccion4 {
-    padding: 8rem 4rem;
-    padding: 7rem 4rem;
-    padding: 6.5rem 4rem;
+    padding: 6.5rem 4rem 8rem;
     gap: 5rem;
 
     .caja {
@@ -153,8 +150,6 @@
 
 @media (min-width: 980px) {
   .seccion4 {
-    // padding-top: 8rem; /* PROVISONAL */
-
     .caja {
       form {
         button {

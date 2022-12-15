@@ -736,9 +736,7 @@
 /* RENPONSIVE -MEDIA QUERIS ///////////////////////////*/
 @media (min-width: 650px) {
   .seccion3 {
-    padding: 8rem 4rem;
-    padding: 7rem 4rem;
-    padding: 6.5rem 4rem;
+    padding: 6.5rem 4rem 9rem;
     gap: 6rem;
   }
   .seccion3 .seccion3__contenedor {
@@ -775,8 +773,7 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  padding: 6rem 2rem;
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 6rem;
   /* ////////////////////////////////////////////// */
 }
 .seccion4 h2 {
@@ -869,9 +866,7 @@
 }
 @media (min-width: 650px) {
   .seccion4 {
-    padding: 8rem 4rem;
-    padding: 7rem 4rem;
-    padding: 6.5rem 4rem;
+    padding: 6.5rem 4rem 8rem;
     gap: 5rem;
   }
   .seccion4 .caja {
