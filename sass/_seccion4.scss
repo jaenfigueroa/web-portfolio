@@ -23,7 +23,7 @@
 
   .caja {
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
     background: #202020;
     background: #1e1e1e;
     border-radius: 1rem;
@@ -42,22 +42,30 @@
       flex-direction: column;
       gap: 2rem;
 
-      input {
-        padding: 2rem;
-        outline: none;
-        border-radius: 0.5rem;
-        background-color: #141414;
-        border: 2px solid rgba(255, 255, 255, 0.448);
-        border: none;
-        color: white;
-        border: 1px solid #141414;
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
 
-        &::placeholder {
+        input {
+          padding: 2rem;
+          outline: none;
+          border-radius: 0.5rem;
+          background-color: #141414;
+          border: 2px solid rgba(255, 255, 255, 0.448);
+          border: none;
           color: white;
-        }
+          border: 1px solid #141414;
+          width: 50%;
+          width: 100%;
 
-        &:focus {
-          border: 1px solid colores.$azul-1;
+          &::placeholder {
+            color: white;
+          }
+
+          &:focus {
+            border: 1px solid colores.$azul-1;
+          }
         }
       }
       textarea {
@@ -92,6 +100,21 @@
 
         &:hover {
           background-color: darken($color: colores.$azul-0, $amount: 2);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 550px) {
+  .seccion4 {
+    .caja {
+      form {
+        div {
+          flex-direction: row;
+          input {
+            width: 50%;
+          }
         }
       }
     }

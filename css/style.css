@@ -682,7 +682,7 @@
 }
 .seccion4 .caja {
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   background: #202020;
   background: #1e1e1e;
   border-radius: 1rem;
@@ -700,7 +700,12 @@
   flex-direction: column;
   gap: 2rem;
 }
-.seccion4 .caja form input {
+.seccion4 .caja form div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.seccion4 .caja form div input {
   padding: 2rem;
   outline: none;
   border-radius: 0.5rem;
@@ -709,11 +714,13 @@
   border: none;
   color: white;
   border: 1px solid #141414;
+  width: 50%;
+  width: 100%;
 }
-.seccion4 .caja form input::placeholder {
+.seccion4 .caja form div input::placeholder {
   color: white;
 }
-.seccion4 .caja form input:focus {
+.seccion4 .caja form div input:focus {
   border: 1px solid #8f88fe;
 }
 .seccion4 .caja form textarea {
@@ -747,6 +754,14 @@
   background-color: #675bff;
 }
 
+@media (min-width: 550px) {
+  .seccion4 .caja form div {
+    flex-direction: row;
+  }
+  .seccion4 .caja form div input {
+    width: 50%;
+  }
+}
 @media (min-width: 650px) {
   .seccion4 {
     padding: 8rem 4rem;
