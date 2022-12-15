@@ -42,6 +42,8 @@
       min-height: 330px;
       // height: 400px; /* PROV */
 
+      min-height: 390px;
+
       .contenido {
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
         background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6));
@@ -176,10 +178,23 @@
 
       .proyecto {
         width: calc(50% - 2rem);
+
+        min-height: 390px;
       }
     }
     h2 {
       font-size: 4.5rem;
+    }
+  }
+}
+
+@media (min-width: 720px) {
+  .seccion3 {
+    .seccion3__contenedor {
+      .proyecto {
+        min-height: 340px;
+        height: 340px;
+      }
     }
   }
 }

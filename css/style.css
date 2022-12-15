@@ -757,6 +757,7 @@
   overflow: hidden;
   transition: 0.3s;
   min-height: 330px;
+  min-height: 390px;
   /* DIFERENTES FONDOS */
 }
 .seccion3__contenedor .proyecto .contenido {
@@ -868,9 +869,16 @@
   }
   .seccion3 .seccion3__contenedor .proyecto {
     width: calc(50% - 2rem);
+    min-height: 390px;
   }
   .seccion3 h2 {
     font-size: 4.5rem;
+  }
+}
+@media (min-width: 720px) {
+  .seccion3 .seccion3__contenedor .proyecto {
+    min-height: 340px;
+    height: 340px;
   }
 }
 @media (min-width: 900px) {
