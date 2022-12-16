@@ -82,6 +82,7 @@
           justify-content: center;
           gap: 1rem;
           text-shadow: 0 0 1.5rem black;
+          text-shadow: 0 0 1rem black;
 
           .nombre {
             font-size: 1.9rem;
@@ -91,6 +92,8 @@
             text-align: center;
             color: white;
             font-weight: 500;
+            color: colores.$azul-2;
+
             // margin-bottom: 1.5rem;
           }
 
@@ -172,10 +175,49 @@
   }
 }
 
+.contenedor-more {
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    span {
+      font-size: 2.5rem;
+      color: white;
+    }
+    i {
+      font-size: 2.5rem;
+      color: white;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+/* //////////////////////////////////////////// */
 @media (min-width: 530px) {
   .seccion3 {
     h2 {
       font-size: 4rem;
+    }
+
+    .contenedor-more {
+      a {
+        span {
+          font-size: 3rem;
+        }
+        i {
+          font-size: 3rem;
+        }
+      }
     }
   }
 }
@@ -184,6 +226,7 @@
 @media (min-width: 650px) {
   .seccion3 {
     padding: 6.5rem 4rem 9rem;
+    padding: 6.5rem 4rem 4rem;
 
     gap: 6rem;
 
@@ -199,6 +242,17 @@
     h2 {
       font-size: 4.5rem;
       // font-size: 5rem;
+    }
+
+    .contenedor-more {
+      a {
+        // background-color: yellow;
+        margin: 2rem 0;
+        span,
+        i {
+          font-size: 3.5rem;
+        }
+      }
     }
   }
 }
@@ -229,12 +283,47 @@
   }
 }
 
+@media (min-width: 980px) {
+  .seccion3 {
+    .contenedor-more {
+      a {
+        span,
+        i {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 1099px) {
   .seccion3 {
     .seccion3__contenedor {
       gap: 5rem;
       .proyecto {
         width: calc(100% / 3 - 3.4rem);
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .seccion3 {
+    .seccion3__contenedor {
+      .proyecto {
+        .contenido {
+          .contenedor-datos {
+            // background-color: red;
+            top: 1rem;
+            top: 1.5rem;
+            .nombre {
+              font-size: 3rem;
+            }
+            .descripcion {
+              font-size: 1.8rem;
+            }
+          }
+        }
       }
     }
   }

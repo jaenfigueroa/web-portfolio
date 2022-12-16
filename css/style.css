@@ -782,6 +782,7 @@
   .seccion2 .caja .caja__contenido p {
     text-align: start;
     margin-bottom: 0;
+    font-size: 2rem;
   }
   .seccion2 .caja .caja__iconos {
     min-width: 75rem;
@@ -855,6 +856,7 @@
   justify-content: center;
   gap: 1rem;
   text-shadow: 0 0 1.5rem black;
+  text-shadow: 0 0 1rem black;
 }
 .seccion3__contenedor .proyecto .contenido .contenedor-datos .nombre {
   font-size: 1.9rem;
@@ -864,6 +866,7 @@
   text-align: center;
   color: white;
   font-weight: 500;
+  color: #acaffe;
 }
 .seccion3__contenedor .proyecto .contenido .contenedor-datos .fecha {
   color: white;
@@ -927,15 +930,48 @@
   opacity: 1;
 }
 
+.contenedor-more {
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-more a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.contenedor-more a span {
+  font-size: 2.5rem;
+  color: white;
+}
+.contenedor-more a i {
+  font-size: 2.5rem;
+  color: white;
+}
+.contenedor-more a:hover {
+  text-decoration: underline;
+}
+
+/* //////////////////////////////////////////// */
 @media (min-width: 530px) {
   .seccion3 h2 {
     font-size: 4rem;
+  }
+  .seccion3 .contenedor-more a span {
+    font-size: 3rem;
+  }
+  .seccion3 .contenedor-more a i {
+    font-size: 3rem;
   }
 }
 /* RENPONSIVE -MEDIA QUERIS ///////////////////////////*/
 @media (min-width: 650px) {
   .seccion3 {
     padding: 6.5rem 4rem 9rem;
+    padding: 6.5rem 4rem 4rem;
     gap: 6rem;
   }
   .seccion3 .seccion3__contenedor {
@@ -947,6 +983,13 @@
   }
   .seccion3 h2 {
     font-size: 4.5rem;
+  }
+  .seccion3 .contenedor-more a {
+    margin: 2rem 0;
+  }
+  .seccion3 .contenedor-more a span,
+  .seccion3 .contenedor-more a i {
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 720px) {
@@ -963,12 +1006,30 @@
     font-size: 5rem;
   }
 }
+@media (min-width: 980px) {
+  .seccion3 .contenedor-more a span,
+  .seccion3 .contenedor-more a i {
+    font-size: 4rem;
+  }
+}
 @media (min-width: 1099px) {
   .seccion3 .seccion3__contenedor {
     gap: 5rem;
   }
   .seccion3 .seccion3__contenedor .proyecto {
     width: calc(33.3333333333% - 3.4rem);
+  }
+}
+@media (min-width: 1200px) {
+  .seccion3 .seccion3__contenedor .proyecto .contenido .contenedor-datos {
+    top: 1rem;
+    top: 1.5rem;
+  }
+  .seccion3 .seccion3__contenedor .proyecto .contenido .contenedor-datos .nombre {
+    font-size: 3rem;
+  }
+  .seccion3 .seccion3__contenedor .proyecto .contenido .contenedor-datos .descripcion {
+    font-size: 1.8rem;
   }
 }
 .seccion4 {
