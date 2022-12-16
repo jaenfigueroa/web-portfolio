@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    gap: 5rem;
   }
 
   .caja1 {
@@ -79,8 +80,8 @@
       border: none;
       padding: 0.4rem 1.3rem;
       border-radius: 0.25rem;
+      border-radius: 0.5rem;
       cursor: pointer;
-      width: max-content;
 
       color: white;
       text-decoration: none;
@@ -88,7 +89,7 @@
       background-color: transparent;
       border: 0.1rem solid colores.$azul-1;
 
-      width: 17rem;
+      width: max-content;
 
       &:hover {
         background: colores.$azul-0;
@@ -114,6 +115,19 @@
       background-color: transparent;
       border: 0.1rem solid colores.$azul-1;
       // background-color: red;
+    }
+
+    button {
+      /* PROV */
+      // background: red;
+      width: 21rem;
+
+      span {
+        font-size: 2rem;
+      }
+      i {
+        font-size: 2rem;
+      }
     }
   }
   .seccion1__imagen {

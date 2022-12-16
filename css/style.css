@@ -110,6 +110,7 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  gap: 5rem;
 }
 .seccion1 .caja1 {
   height: 8rem;
@@ -150,13 +151,13 @@
   border: none;
   padding: 0.4rem 1.3rem;
   border-radius: 0.25rem;
+  border-radius: 0.5rem;
   cursor: pointer;
-  width: max-content;
   color: white;
   text-decoration: none;
   background-color: transparent;
   border: 0.1rem solid #8f88fe;
-  width: 17rem;
+  width: max-content;
 }
 .seccion1 .caja2__boton:hover {
   background: #7065ff;
@@ -171,6 +172,16 @@
 .seccion1 .caja2 .boton2 {
   background-color: transparent;
   border: 0.1rem solid #8f88fe;
+}
+.seccion1 .caja2 button {
+  /* PROV */
+  width: 21rem;
+}
+.seccion1 .caja2 button span {
+  font-size: 2rem;
+}
+.seccion1 .caja2 button i {
+  font-size: 2rem;
 }
 .seccion1 .seccion1__imagen {
   width: 25rem;
