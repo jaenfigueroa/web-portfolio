@@ -9,6 +9,8 @@
   position: relative;
   width: 100%;
   min-width: 310px;
+  min-width: 300px;
+  min-width: 290px;
   height: 100vh;
   min-height: 550px;
 
@@ -68,6 +70,9 @@
   .caja2 {
     display: flex;
     gap: 1rem;
+
+    flex-direction: column; /* PROV */
+    align-items: center; /* PROV */
 
     &__boton {
       border: none;
@@ -369,12 +374,15 @@
       // background: green;
       .caja2 {
         // background-color: blue;
+        flex-direction: row;
+
         a {
           button.contact-ws {
             // background: red;
             span {
               &:after {
-                content: ' me';
+                // content: ' me';
+                content: '';
               }
             }
           }

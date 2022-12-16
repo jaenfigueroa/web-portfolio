@@ -96,6 +96,8 @@
   position: relative;
   width: 100%;
   min-width: 310px;
+  min-width: 300px;
+  min-width: 290px;
   height: 100vh;
   min-height: 550px;
   padding: 3rem 1rem;
@@ -140,6 +142,8 @@
 .seccion1 .caja2 {
   display: flex;
   gap: 1rem;
+  flex-direction: column; /* PROV */
+  align-items: center; /* PROV */
 }
 .seccion1 .caja2__boton {
   border: none;
@@ -344,8 +348,11 @@
   }
 }
 @media (min-width: 600px) {
+  .seccion1 .cajas .caja2 {
+    flex-direction: row;
+  }
   .seccion1 .cajas .caja2 a button.contact-ws span:after {
-    content: " me";
+    content: "";
   }
 }
 @media (min-width: 795px) {
