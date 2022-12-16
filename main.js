@@ -144,7 +144,7 @@ ScrollReveal().reveal('.proyecto', {
 
 ScrollReveal().reveal('.caja-contact', {
   distance: '500px',
-  duration: 1200,
+  duration: 1000,
   origin: 'left',
   delay: 200
 })
