@@ -74,6 +74,10 @@
         margin-top: 3rem;
         margin-top: 4rem;
         align-self: flex-end;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }

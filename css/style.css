@@ -97,7 +97,6 @@
   /* ////////////////////////////////////////////// */
 }
 .seccion1 .cajas {
-  width: 260px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,7 +112,7 @@
 .seccion1 .caja1 .titulo {
   font-size: 3.5rem;
   font-weight: 500;
-  color: rgb(173, 176, 255);
+  color: #acaffe;
   animation: blink 0.5s infinite step-end alternate;
 }
 .seccion1 .caja1 .titulo--animada:after {
@@ -149,16 +148,14 @@
   border: 1px solid #8f88fe;
 }
 .seccion1 .caja2__boton:hover {
-  background-color: #6256ff;
-  border: 1px solid #6256ff;
+  background: #7065ff;
 }
 .seccion1 .caja2 .descargar-cv {
-  border: 1px solid #6256ff;
-  background-color: #6256ff;
+  background-color: #7065ff;
+  border: 1px solid #8f88fe;
 }
 .seccion1 .caja2 .descargar-cv:hover {
-  background-color: #6256ff;
-  border: 1px solid #6256ff;
+  background-color: #7065ff;
 }
 .seccion1 .caja2 .boton2 {
   background-color: transparent;
@@ -318,9 +315,32 @@
 }
 /* ///////////////////////////////////////// */
 @media (min-width: 500px) {
+  .seccion1 {
+    min-height: 750px;
+  }
+  .seccion1 .cajas {
+    gap: 9rem;
+  }
+  .seccion1 .cajas .caja1 .titulo {
+    font-size: 5rem;
+  }
+  .seccion1 .cajas .caja1 .cargo {
+    font-size: 3rem;
+  }
+  .seccion1 .cajas .caja2 button span {
+    font-size: 2.2rem;
+  }
+  .seccion1 .cajas .caja2 button i {
+    font-size: 2.2rem;
+  }
   .seccion1 .contenedor-redes {
     display: block;
     bottom: 3rem;
+  }
+}
+@media (min-width: 600px) {
+  .seccion1 .cajas .caja2 a button.contact-ws span:after {
+    content: " me";
   }
 }
 @media (min-width: 795px) {
@@ -342,17 +362,10 @@
     font-size: 1.8rem;
   }
   .seccion1 .cajas {
-    width: 275px;
-    gap: 4rem;
+    align-items: flex-start;
   }
   .seccion1 .cajas .caja1 {
     align-items: flex-start;
-  }
-  .seccion1 .cajas .caja1 .titulo {
-    font-size: 3.7rem;
-  }
-  .seccion1 .cajas .caja1 .cargo {
-    font-size: 2rem;
   }
   .seccion1 .cajas .caja2 {
     align-self: flex-start;
@@ -395,24 +408,29 @@
     /* //////////////////////////////////////// */
   }
   .seccion1 .cajas {
-    width: 440px;
-    gap: 5rem;
+    width: 480px;
+    gap: 8rem;
   }
   .seccion1 .cajas .caja1 {
-    width: 440px;
     height: 130px;
   }
   .seccion1 .cajas .caja1 .titulo {
-    font-size: 6rem;
+    font-size: 6.5rem;
   }
   .seccion1 .cajas .caja1 .cargo {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
-  .seccion1 .cajas .caja2__boton {
-    font-size: 1.8rem;
+  .seccion1 .cajas .caja2 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
-  .seccion1 .cajas .caja2__boton i {
-    font-size: 1.8rem;
+  .seccion1 .cajas .caja2 button span {
+    font-size: 2.5rem;
+  }
+  .seccion1 .cajas .caja2 button i {
+    font-size: 2.5rem;
   }
   .seccion1 .seccion1__imagen {
     width: 350px;
@@ -427,10 +445,11 @@
   .seccion1 .cajas {
     width: 510px;
     gap: 6rem;
+    gap: 12rem;
   }
   .seccion1 .cajas .caja1 {
-    width: 510px;
-    height: 150px;
+    width: 540px;
+    gap: 1rem;
   }
   .seccion1 .cajas .caja1 .titulo {
     font-size: 7rem;
@@ -439,11 +458,11 @@
     font-size: 3.5rem;
     margin-top: -15px;
   }
-  .seccion1 .cajas .caja2__boton {
-    font-size: 2rem;
+  .seccion1 .cajas .caja2 button span {
+    font-size: 2.8rem;
   }
-  .seccion1 .cajas .caja2__boton i {
-    font-size: 2rem;
+  .seccion1 .cajas .caja2 button i {
+    font-size: 2.8rem;
   }
   .seccion1 .seccion1__imagen {
     width: 500px;
@@ -966,6 +985,9 @@
   margin-top: 3rem;
   margin-top: 4rem;
   align-self: flex-end;
+}
+.seccion4 .caja .contenido .correo:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 475px) {

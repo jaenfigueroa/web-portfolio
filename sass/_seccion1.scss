@@ -16,7 +16,7 @@
   /* ////////////////////////////////////////////// */
 
   .cajas {
-    width: 260px;
+    // width: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,8 +33,10 @@
     .titulo {
       font-size: 3.5rem;
       font-weight: 500;
-      color: rgb(173, 176, 255);
+      color: colores.$azul-2;
       animation: blink 0.5s infinite step-end alternate;
+
+      // border: 1px solid aqua; /* PROV */
 
       &--animada {
         &:after {
@@ -52,6 +54,8 @@
       animation: blink 0.5s infinite step-end alternate;
       color: white;
       width: max-content;
+
+      // border: 1px solid greenyellow; /* PROV */
 
       &--animada {
         &:before {
@@ -78,34 +82,30 @@
       background-color: transparent;
       border: 1px solid colores.$azul-1;
 
-      // border: 1px solid #333;
-      // border: 1px solid rgb(125, 125, 125);
-
       &:hover {
-        background-color: darken(colores.$azul-0, 3);
-        border: 1px solid darken(colores.$azul-0, 3);
+        background: colores.$azul-0;
       }
     }
 
     .descargar-cv {
-      // background-color: darken(colores.$azul-0, 0);
-      // border: 1px solid darken(colores.$azul-0, 0);
-
-      border: 1px solid darken(colores.$azul-0, 3);
-      background-color: darken(colores.$azul-0, 3);
-
-      // background-color: rgb(89, 89, 89);
-      // border: 1px solid rgb(78, 78, 78);
+      background-color: colores.$azul-0;
+      border: 1px solid colores.$azul-1;
 
       &:hover {
-        background-color: darken(colores.$azul-0, 3);
-        border: 1px solid darken(colores.$azul-0, 3);
+        background-color: colores.$azul-0;
+      }
+    }
+    .contact-ws {
+      // background-color: yellow;
+      &:after {
+        // content: 'vaca';
       }
     }
 
     .boton2 {
       background-color: transparent;
       border: 1px solid colores.$azul-1;
+      // background-color: red;
     }
   }
   .seccion1__imagen {
@@ -331,12 +331,59 @@
 /* ///////////////////////////////////////// */
 @media (min-width: 500px) {
   .seccion1 {
+    min-height: 750px;
+    .cajas {
+      gap: 9rem;
+
+      .caja1 {
+        .titulo {
+          font-size: 5rem;
+        }
+        .cargo {
+          font-size: 3rem;
+        }
+      }
+      .caja2 {
+        button {
+          // background: red;
+          span {
+            font-size: 2.2rem;
+          }
+          i {
+            font-size: 2.2rem;
+          }
+        }
+      }
+    }
     .contenedor-redes {
       display: block;
       bottom: 3rem;
     }
   }
 }
+
+@media (min-width: 600px) {
+  .seccion1 {
+    // background: red;
+    .cajas {
+      // background: green;
+      .caja2 {
+        // background-color: blue;
+        a {
+          button.contact-ws {
+            // background: red;
+            span {
+              &:after {
+                content: ' me';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 795px) {
   .seccion1 {
     flex-direction: row;
@@ -362,17 +409,19 @@
     /* ////////////////////////// */
 
     .cajas {
-      width: 275px;
-      gap: 4rem;
+      // width: 275px;
+      // gap: 4rem;
+      align-items: flex-start;
+      // background-color: red;
 
       .caja1 {
         align-items: flex-start;
 
         .titulo {
-          font-size: 3.7rem;
+          // font-size: 3.7rem;
         }
         .cargo {
-          font-size: 2rem;
+          // font-size: 2rem;
         }
       }
 
@@ -385,6 +434,14 @@
           color: white;
           text-decoration: none;
         }
+
+        // .contact-ws {
+        //   span {
+        //     &:after {
+        //       content: ' me';
+        //     }
+        //   }
+        // }
       }
     }
 
@@ -424,26 +481,42 @@
     /* //////////////////////////////////////// */
 
     .cajas {
-      width: 440px;
-      gap: 5rem;
+      width: 480px;
+      gap: 8rem;
+      // background-color: red;
 
       .caja1 {
-        width: 440px;
+        // width: 440px;
         height: 130px;
 
         .titulo {
-          font-size: 6rem;
+          font-size: 6.5rem;
         }
         .cargo {
-          font-size: 3rem;
+          font-size: 3.5rem;
         }
       }
       .caja2 {
-        &__boton {
-          font-size: 1.8rem;
+        // background-color: greenyellow;
+
+        button {
+          // height: 55px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          // padding: 0 2rem;
+
+          // background-color: red;
+          // color: blue;
+
+          span {
+            font-size: 2.5rem;
+          }
 
           i {
-            font-size: 1.8rem;
+            font-size: 2.5rem;
+            // background-color: blue;
           }
         }
       }
@@ -464,10 +537,15 @@
     .cajas {
       width: 510px;
       gap: 6rem;
+      gap: 12rem;
+
+      // background: red;
 
       .caja1 {
-        width: 510px;
-        height: 150px;
+        width: 540px;
+        // height: 150px;
+        // background-color: red !important;
+        gap: 1rem;
 
         .titulo {
           font-size: 7rem;
@@ -478,11 +556,13 @@
         }
       }
       .caja2 {
-        &__boton {
-          font-size: 2rem;
+        button {
+          span {
+            font-size: 2.8rem;
+          }
 
           i {
-            font-size: 2rem;
+            font-size: 2.8rem;
           }
         }
       }
