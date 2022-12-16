@@ -7,7 +7,7 @@
 
   height: 5rem;
   padding: 1rem 2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.074);
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.074);
   background: #141414;
   top: 0;
   z-index: 1;
@@ -42,14 +42,14 @@
       gap: 1.5rem;
 
       position: absolute;
-      top: 50px;
+      top: 5rem;
       left: 0;
 
       text-transform: capitalize;
       transition: 1s;
       overflow: hidden;
       height: 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 0.1rem solid rgba(255, 255, 255, 0.1);
 
       &--visible {
         height: max-content;
@@ -58,7 +58,7 @@
 
       a {
         color: white;
-        border-bottom: 1.5px solid rgba(255, 0, 0, 0);
+        border-bottom: 0.15rem solid rgba(255, 0, 0, 0);
         transition: 0.5s;
         cursor: pointer;
         padding: 0 0.5rem;
@@ -66,7 +66,7 @@
         &:hover {
           color: blue;
           color: colores.$azul-2;
-          border-bottom: 1.5px solid colores.$azul-2;
+          border-bottom: 0.15rem solid colores.$azul-2;
           // background-color: yellow;
         }
 
@@ -74,7 +74,7 @@
           // background-color: red;
           color: blue;
           color: colores.$azul-2;
-          border-bottom: 1.5px solid colores.$azul-2;
+          border-bottom: 0.15rem solid colores.$azul-2;
         }
       }
     }

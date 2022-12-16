@@ -51,15 +51,15 @@
       .contenedor-iconos {
         display: flex;
         flex-wrap: wrap;
-        max-width: 800px;
+        max-width: 80rem;
         align-items: center;
         justify-content: center;
         gap: 3rem;
 
         i {
           font-size: 5rem;
-          max-width: 80px;
-          max-height: 80px;
+          max-width: 8rem;
+          max-height: 8rem;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -133,8 +133,8 @@
     // background-color: red;
     .caja {
       .caja__iconos {
-        min-width: 350px;
-        max-width: 350px;
+        min-width: 35rem;
+        max-width: 35rem;
         align-self: center;
 
         .contenedor-iconos {
@@ -185,8 +185,8 @@
         }
       }
       .caja__iconos {
-        min-width: 420px;
-        max-width: 420px;
+        min-width: 42rem;
+        max-width: 42rem;
 
         .contenedor-iconos {
           gap: 5rem;
@@ -240,7 +240,7 @@
     .caja {
       padding: 4rem 4rem 6rem;
       .caja__iconos {
-        max-width: 540px;
+        max-width: 54rem;
         align-self: center;
       }
     }
@@ -255,7 +255,7 @@
       padding: 5rem 5rem 8rem;
       justify-content: space-between;
 
-      max-width: 1300px;
+      max-width: 130rem;
       // background-color: red;
 
       /* ////////////////////////////////////////////// */
@@ -279,10 +279,10 @@
       }
       .caja__iconos {
         // background-color: rgb(131, 55, 126);
-        max-width: 1500px;
+        max-width: 150rem;
 
         .contenedor-iconos {
-          max-width: 700px;
+          max-width: 70rem;
           gap: 5rem;
 
           i {
@@ -349,7 +349,7 @@
         }
       }
       .caja__iconos {
-        min-width: 750px;
+        min-width: 75rem;
         // background-color: green;
       }
     }

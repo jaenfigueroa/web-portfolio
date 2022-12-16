@@ -8,18 +8,18 @@
   justify-content: space-evenly;
   position: relative;
   width: 100%;
-  min-width: 310px;
-  min-width: 300px;
-  min-width: 290px;
+  min-width: 31rem;
+  min-width: 30rem;
+  min-width: 29rem;
   height: 100vh;
-  min-height: 550px;
-  min-height: 600px;
+  min-height: 55rem;
+  min-height: 60rem;
 
   padding: 3rem 1rem;
   /* ////////////////////////////////////////////// */
 
   .cajas {
-    // width: 260px;
+    // width: 26rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@
   }
 
   .caja1 {
-    height: 80px;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@
       color: colores.$azul-2;
       animation: blink 0.5s infinite step-end alternate;
 
-      // border: 1px solid aqua; /* PROV */
+      // border: 0.1rem solid aqua; /* PROV */
 
       &--animada {
         &:after {
@@ -52,13 +52,13 @@
     .cargo {
       font-size: 2rem;
       font-weight: 300;
-      margin-top: -5px;
-      border-right: 2px solid white;
+      margin-top: -0.5rem;
+      border-right: 0.2rem solid white;
       animation: blink 0.5s infinite step-end alternate;
       color: white;
       width: max-content;
 
-      // border: 1px solid greenyellow; /* PROV */
+      // border: 0.1rem solid greenyellow; /* PROV */
 
       &--animada {
         &:before {
@@ -86,7 +86,7 @@
       text-decoration: none;
 
       background-color: transparent;
-      border: 1px solid colores.$azul-1;
+      border: 0.1rem solid colores.$azul-1;
 
       &:hover {
         background: colores.$azul-0;
@@ -95,7 +95,7 @@
 
     .descargar-cv {
       background-color: colores.$azul-0;
-      border: 1px solid colores.$azul-1;
+      border: 0.1rem solid colores.$azul-1;
 
       &:hover {
         background-color: colores.$azul-0;
@@ -110,13 +110,13 @@
 
     .boton2 {
       background-color: transparent;
-      border: 1px solid colores.$azul-1;
+      border: 0.1rem solid colores.$azul-1;
       // background-color: red;
     }
   }
   .seccion1__imagen {
-    width: 250px;
-    height: 250px;
+    width: 25rem;
+    height: 25rem;
     background: url(../assets/4.svg) no-repeat center;
     background-size: contain;
   }
@@ -158,7 +158,7 @@
 @keyframes saludo {
   0% {
     content: 'H';
-    border-right: 3px solid rgb(255, 255, 255);
+    border-right: 0.3rem solid rgb(255, 255, 255);
   }
   5% {
     content: 'He';
@@ -201,13 +201,13 @@
   }
   65% {
     content: "Hello, I'm Jaen";
-    border-right: 3px solid rgb(255, 255, 255);
+    border-right: 0.3rem solid rgb(255, 255, 255);
   }
   70% {
-    border-right: 3px solid transparent;
+    border-right: 0.3rem solid transparent;
   }
   100% {
-    border-right: 3px solid transparent;
+    border-right: 0.3rem solid transparent;
   }
 }
 
@@ -337,7 +337,7 @@
 /* ///////////////////////////////////////// */
 @media (min-width: 500px) {
   .seccion1 {
-    min-height: 750px;
+    min-height: 75rem;
     .cajas {
       gap: 9rem;
 
@@ -398,11 +398,11 @@
     flex-direction: row;
     justify-content: space-around;
     height: calc(50vh);
-    height: 400px;
+    height: 40rem;
 
     padding: 3rem;
 
-    min-height: 500px;
+    min-height: 50rem;
     height: 100vh;
 
     .contenedor-redes {
@@ -418,7 +418,7 @@
     /* ////////////////////////// */
 
     .cajas {
-      // width: 275px;
+      // width: 27.5rem;
       // gap: 4rem;
       align-items: flex-start;
       // background-color: red;
@@ -456,8 +456,8 @@
 
     .seccion1__imagen {
       display: initial;
-      width: 250px;
-      height: 250px;
+      width: 25rem;
+      height: 25rem;
       animation: flotar 1.5s linear infinite alternate, crecer 1s linear both;
     }
   }
@@ -466,10 +466,10 @@
 /* /////////////////////////////// */
 @keyframes flotar {
   from {
-    transform: translateY(-20px);
+    transform: translateY(-2rem);
   }
   to {
-    transform: translateY(20px);
+    transform: translateY(2rem);
   }
 }
 
@@ -485,18 +485,18 @@
 /* /////////////////////////////// */
 @media (min-width: 980px) {
   .seccion1 {
-    min-height: 600px;
+    min-height: 60rem;
     height: 100vh;
     /* //////////////////////////////////////// */
 
     .cajas {
-      width: 480px;
+      width: 48rem;
       gap: 8rem;
       // background-color: red;
 
       .caja1 {
-        // width: 440px;
-        height: 130px;
+        // width: 44rem;
+        height: 13rem;
 
         .titulo {
           font-size: 6.5rem;
@@ -509,7 +509,7 @@
         // background-color: greenyellow;
 
         button {
-          // height: 55px;
+          // height: 5.5rem;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -532,8 +532,8 @@
     }
 
     .seccion1__imagen {
-      width: 350px;
-      height: 350px;
+      width: 35rem;
+      height: 35rem;
     }
   }
 }
@@ -541,18 +541,18 @@
 @media (min-width: 1300px) {
   .seccion1 {
     height: 100vh;
-    min-height: 700px;
+    min-height: 70rem;
 
     .cajas {
-      width: 510px;
+      width: 51rem;
       gap: 6rem;
       gap: 12rem;
 
       // background: red;
 
       .caja1 {
-        width: 540px;
-        // height: 150px;
+        width: 54rem;
+        // height: 15rem;
         // background-color: red !important;
         gap: 1rem;
 
@@ -561,7 +561,7 @@
         }
         .cargo {
           font-size: 3.5rem;
-          margin-top: -15px;
+          margin-top: -1.5rem;
         }
       }
       .caja2 {
@@ -580,8 +580,8 @@
     }
 
     .seccion1__imagen {
-      width: 500px;
-      height: 500px;
+      width: 50rem;
+      height: 50rem;
     }
   }
 }

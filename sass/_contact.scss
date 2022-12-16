@@ -22,7 +22,7 @@
 
   .caja {
     width: 100%;
-    max-width: 700px;
+    max-width: 70rem;
     background: #1f1f1f;
     border-radius: 1rem;
     padding: 3rem 2rem;
@@ -31,7 +31,7 @@
     gap: 3rem;
 
     .contenido {
-      // border: 1px solid greenyellow;
+      // border: 0.1rem solid greenyellow;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -54,7 +54,7 @@
         padding: 0.5rem 1.5rem;
         font-size: 2rem;
         // align-self: center;
-        border: 1px solid colores.$azul-1;
+        border: 0.1rem solid colores.$azul-1;
         background-color: transparent;
         color: white;
         border-radius: 0.5rem;
@@ -123,9 +123,9 @@
     .caja {
       // background-color: green;
       padding: 4rem;
-      max-width: 650px;
-      max-width: 750px;
-      // max-width: 600px;
+      max-width: 65rem;
+      max-width: 75rem;
+      // max-width: 60rem;
 
       padding: 5rem 4rem;
       gap: 4rem;
@@ -170,7 +170,7 @@
     .caja {
       padding: 5rem 5rem;
       // background-color: red;
-      max-width: 950px;
+      max-width: 95rem;
 
       .contenido {
         // background-color: rgb(105, 105, 49);

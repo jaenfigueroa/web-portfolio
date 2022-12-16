@@ -30,22 +30,22 @@
 
     .proyecto {
       width: 100%;
-      height: 300px;
+      height: 30rem;
       background: url(../assets/proyectos/ecommerce-0.png);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       border-radius: 1rem;
-      max-width: 500px;
+      max-width: 50rem;
       overflow: hidden;
       transition: 0.3s;
 
-      min-height: 330px;
-      // height: 400px; /* PROV */
+      min-height: 33rem;
+      // height: 40rem; /* PROV */
 
-      min-height: 390px;
+      min-height: 39rem;
 
-      // filter: blur(1px);
+      // filter: blur(0.1rem);
 
       .contenido {
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
@@ -79,7 +79,7 @@
           align-items: center;
           justify-content: center;
           gap: 1rem;
-          text-shadow: 0 0 15px black;
+          text-shadow: 0 0 1.5rem black;
 
           .nombre {
             font-size: 1.9rem;
@@ -108,7 +108,7 @@
           display: flex;
           gap: 2rem;
           width: max-content;
-          // bottom: -210px;
+          // bottom: -21rem;
           // top: 0;
           bottom: 2.5rem;
           position: absolute;
@@ -191,7 +191,7 @@
       .proyecto {
         width: calc(50% - 2rem);
 
-        min-height: 390px;
+        min-height: 39rem;
       }
     }
     h2 {
@@ -205,8 +205,8 @@
   .seccion3 {
     .seccion3__contenedor {
       .proyecto {
-        min-height: 340px;
-        height: 340px;
+        min-height: 34rem;
+        height: 34rem;
       }
     }
   }

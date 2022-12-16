@@ -31,12 +31,12 @@ a {
 }
 
 .blur {
-  filter: blur(4px);
+  filter: blur(0.4rem);
 }
 
 /* para quE cuando use el nav entre secciones; no se tape le titulo de la seccion */
 section[id] {
-  scroll-margin-top: 40px;
+  scroll-margin-top: 4rem;
 }
 
 /* para que lo que este fuera del contenedor , no se muestre */
