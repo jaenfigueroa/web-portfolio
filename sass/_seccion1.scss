@@ -88,6 +88,8 @@
       background-color: transparent;
       border: 0.1rem solid colores.$azul-1;
 
+      width: 17rem;
+
       &:hover {
         background: colores.$azul-0;
       }
@@ -352,6 +354,7 @@
       .caja2 {
         button {
           // background: red;
+          width: 22rem;
           span {
             font-size: 2.2rem;
           }
@@ -377,6 +380,9 @@
         // background-color: blue;
         flex-direction: row;
 
+        button {
+          width: max-content;
+        }
         a {
           button.contact-ws {
             // background: red;
