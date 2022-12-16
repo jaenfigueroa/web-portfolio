@@ -119,3 +119,31 @@ menuLinks.forEach((menuLink) => {
 /////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
+ScrollReveal().reveal('.caja2', {
+  distance: '300px',
+  duration: 1000,
+  opacity: 0,
+  origin: 'bottom'
+})
+
+ScrollReveal().reveal('.caja-skills', {
+  distance: '200px',
+  duration: 1000,
+  origin: 'right',
+  // opacity: 0,
+  delay: 100
+})
+
+ScrollReveal().reveal('.proyecto', {
+  distance: '200px',
+  duration: 1000,
+  opacity: 0,
+  origin: 'bottom'
+})
+
+ScrollReveal().reveal('.caja-contact', {
+  distance: '300px',
+  duration: 1000,
+  origin: 'left',
+  delay: 100
+})
