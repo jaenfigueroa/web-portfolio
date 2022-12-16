@@ -174,6 +174,16 @@
   .seccion2 {
     // background-color: blue;
     .caja {
+      .caja__contenido {
+        label {
+          font-size: 4rem;
+        }
+        p {
+          font-size: 1.7rem;
+          margin-bottom: 3rem;
+          // background-color: red;
+        }
+      }
       .caja__iconos {
         min-width: 420px;
         max-width: 420px;
@@ -218,7 +228,7 @@
 
       .caja__contenido {
         label {
-          font-size: 4rem;
+          font-size: 4.5rem;
         }
       }
     }
@@ -228,6 +238,7 @@
 @media (min-width: 740px) {
   .seccion2 {
     .caja {
+      padding: 4rem 4rem 6rem;
       .caja__iconos {
         max-width: 540px;
         align-self: center;
@@ -241,10 +252,11 @@
   .seccion2 {
     // background-color: green;
     .caja {
-      padding: 5rem 5rem;
+      padding: 5rem 5rem 8rem;
       justify-content: space-between;
 
       max-width: 1300px;
+      // background-color: red;
 
       /* ////////////////////////////////////////////// */
       .caja__contenido {
@@ -254,12 +266,15 @@
         justify-content: center;
         width: 100%;
 
+        padding-bottom: 1rem;
+
         label {
           font-size: 5rem;
         }
         p {
+          // background-color: red;
           font-size: 1.8rem;
-          text-align: start;
+          margin-bottom: 2rem;
         }
       }
       .caja__iconos {
@@ -325,9 +340,12 @@
 
         label {
           text-align: start;
+          // background-color: red;
         }
-        span {
+        p {
+          // background-color: green;
           text-align: start;
+          margin-bottom: 0;
         }
       }
       .caja__iconos {

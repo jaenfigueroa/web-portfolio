@@ -166,6 +166,13 @@
   }
 }
 
+@media (min-width: 530px) {
+  .seccion3 {
+    h2 {
+      font-size: 4rem;
+    }
+  }
+}
 /* RENPONSIVE -MEDIA QUERIS ///////////////////////////*/
 
 @media (min-width: 650px) {
@@ -185,6 +192,7 @@
     }
     h2 {
       font-size: 4.5rem;
+      // font-size: 5rem;
     }
   }
 }

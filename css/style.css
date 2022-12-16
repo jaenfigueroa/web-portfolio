@@ -82,6 +82,11 @@
     font-size: 1.7rem;
   }
 }
+@media (min-width: 980px) {
+  .header li {
+    font-size: 1.75rem;
+  }
+}
 .seccion1 {
   background: linear-gradient(90deg, #202020, #151515);
   display: flex;
@@ -460,9 +465,11 @@
   }
   .seccion1 .cajas .caja2 button span {
     font-size: 2.8rem;
+    font-size: 2.6rem;
   }
   .seccion1 .cajas .caja2 button i {
     font-size: 2.8rem;
+    font-size: 2.6rem;
   }
   .seccion1 .seccion1__imagen {
     width: 500px;
@@ -616,6 +623,13 @@
   }
 }
 @media (min-width: 530px) {
+  .seccion2 .caja .caja__contenido label {
+    font-size: 4rem;
+  }
+  .seccion2 .caja .caja__contenido p {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+  }
   .seccion2 .caja .caja__iconos {
     min-width: 420px;
     max-width: 420px;
@@ -654,10 +668,13 @@
     gap: 6rem;
   }
   .seccion2 .caja .caja__contenido label {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 }
 @media (min-width: 740px) {
+  .seccion2 .caja {
+    padding: 4rem 4rem 6rem;
+  }
   .seccion2 .caja .caja__iconos {
     max-width: 540px;
     align-self: center;
@@ -666,7 +683,7 @@
 /* DE AQUI MAS GANDRE SOLUCIONADO 856+ */
 @media (min-width: 900px) {
   .seccion2 .caja {
-    padding: 5rem 5rem;
+    padding: 5rem 5rem 8rem;
     justify-content: space-between;
     max-width: 1300px;
     /* ////////////////////////////////////////////// */
@@ -677,13 +694,14 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-bottom: 1rem;
   }
   .seccion2 .caja .caja__contenido label {
     font-size: 5rem;
   }
   .seccion2 .caja .caja__contenido p {
     font-size: 1.8rem;
-    text-align: start;
+    margin-bottom: 2rem;
   }
   .seccion2 .caja .caja__iconos {
     max-width: 1500px;
@@ -734,8 +752,9 @@
   .seccion2 .caja .caja__contenido label {
     text-align: start;
   }
-  .seccion2 .caja .caja__contenido span {
+  .seccion2 .caja .caja__contenido p {
     text-align: start;
+    margin-bottom: 0;
   }
   .seccion2 .caja .caja__iconos {
     min-width: 750px;
@@ -879,6 +898,11 @@
   opacity: 1;
 }
 
+@media (min-width: 530px) {
+  .seccion3 h2 {
+    font-size: 4rem;
+  }
+}
 /* RENPONSIVE -MEDIA QUERIS ///////////////////////////*/
 @media (min-width: 650px) {
   .seccion3 {
