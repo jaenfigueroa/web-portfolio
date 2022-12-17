@@ -349,6 +349,9 @@
     .seccion3__contenedor {
       .proyecto {
         .contenedor-botones {
+          button {
+            transition: 0.5s;
+          }
           button:hover {
             padding: 0.5rem 5rem;
           }

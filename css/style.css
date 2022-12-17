@@ -1049,6 +1049,9 @@
   .seccion3 .seccion3__contenedor .proyecto .contenido .contenedor-datos .descripcion {
     font-size: 1.8rem;
   }
+  .seccion3 .seccion3__contenedor .proyecto .contenedor-botones button {
+    transition: 0.5s;
+  }
   .seccion3 .seccion3__contenedor .proyecto .contenedor-botones button:hover {
     padding: 0.5rem 5rem;
   }
