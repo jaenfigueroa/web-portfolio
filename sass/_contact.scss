@@ -59,15 +59,30 @@
         color: white;
         border-radius: 0.5rem;
         cursor: pointer;
+        position: relative;
+        overflow: hidden;
 
         i {
           font-size: 2rem;
         }
 
-        &:hover {
-          background: colores.$azul-0;
+        &:hover .fondo {
+          transform: translateX(0);
+        }
+
+        .fondo {
+          background-color: colores.$azul-0;
+          width: 200%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          transform: translateX(-100%);
+          transition: 0.5s;
         }
       }
+
       .correo {
         color: white;
         font-size: 1.7rem;

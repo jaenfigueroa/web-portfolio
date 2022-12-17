@@ -1106,12 +1106,25 @@
   color: white;
   border-radius: 0.5rem;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 .seccion4 .caja .contenido .boton i {
   font-size: 2rem;
 }
-.seccion4 .caja .contenido .boton:hover {
-  background: #7065ff;
+.seccion4 .caja .contenido .boton:hover .fondo {
+  transform: translateX(0);
+}
+.seccion4 .caja .contenido .boton .fondo {
+  background-color: #7065ff;
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: 0.5s;
 }
 .seccion4 .caja .contenido .correo {
   color: white;
