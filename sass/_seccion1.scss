@@ -90,6 +90,7 @@
       border: 0.1rem solid colores.$azul-1;
 
       width: max-content;
+      position: relative !important;
 
       &:hover {
         background: colores.$azul-0;

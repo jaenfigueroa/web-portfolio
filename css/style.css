@@ -158,6 +158,7 @@
   background-color: transparent;
   border: 0.1rem solid #8f88fe;
   width: max-content;
+  position: relative !important;
 }
 .seccion1 .caja2__boton:hover {
   background: #7065ff;
