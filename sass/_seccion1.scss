@@ -90,7 +90,8 @@
       border: 0.1rem solid colores.$azul-1;
 
       width: max-content;
-      position: relative !important;
+      position: relative;
+      transition: 0.3s;
 
       &:hover {
         background: colores.$azul-0;
@@ -550,6 +551,57 @@
             // background-color: blue;
           }
         }
+
+        /* /////////////////////// */
+
+        .descargar-cv {
+          background-color: transparent;
+          overflow: hidden;
+
+          &:after {
+            content: '';
+            background-color: colores.$azul-0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+            transform: translateX(0px);
+            transition: 0.3s;
+          }
+        }
+
+        .boton2 {
+          background-color: transparent;
+          overflow: hidden;
+
+          &:after {
+            transform: translateX(100%);
+          }
+        }
+
+        .contact-ws {
+          transition: 1s;
+          overflow: hidden;
+          background-color: transparent;
+
+          &:after {
+            content: '';
+            background-color: colores.$azul-0;
+
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+            transform: translateX(-100%);
+            transition: 0.3s;
+          }
+
+          &:hover:after {
+            transform: translateX(0px);
+          }
+        }
+
+        /* /////////////////////// */
       }
     }
 

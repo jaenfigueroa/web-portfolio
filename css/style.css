@@ -158,7 +158,8 @@
   background-color: transparent;
   border: 0.1rem solid #8f88fe;
   width: max-content;
-  position: relative !important;
+  position: relative;
+  transition: 0.3s;
 }
 .seccion1 .caja2__boton:hover {
   background: #7065ff;
@@ -453,6 +454,10 @@
   .seccion1 .cajas .caja1 .cargo {
     font-size: 3.5rem;
   }
+  .seccion1 .cajas .caja2 {
+    /* /////////////////////// */
+    /* /////////////////////// */
+  }
   .seccion1 .cajas .caja2 button {
     display: flex;
     align-items: center;
@@ -464,6 +469,45 @@
   }
   .seccion1 .cajas .caja2 button i {
     font-size: 2.5rem;
+  }
+  .seccion1 .cajas .caja2 .descargar-cv {
+    background-color: transparent;
+    overflow: hidden;
+  }
+  .seccion1 .cajas .caja2 .descargar-cv:after {
+    content: "";
+    background-color: #7065ff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: translateX(0px);
+    transition: 0.3s;
+  }
+  .seccion1 .cajas .caja2 .boton2 {
+    background-color: transparent;
+    overflow: hidden;
+  }
+  .seccion1 .cajas .caja2 .boton2:after {
+    transform: translateX(100%);
+  }
+  .seccion1 .cajas .caja2 .contact-ws {
+    transition: 1s;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  .seccion1 .cajas .caja2 .contact-ws:after {
+    content: "";
+    background-color: #7065ff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: translateX(-100%);
+    transition: 0.3s;
+  }
+  .seccion1 .cajas .caja2 .contact-ws:hover:after {
+    transform: translateX(0px);
   }
   .seccion1 .seccion1__imagen {
     width: 35rem;
