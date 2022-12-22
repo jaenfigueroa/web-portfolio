@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jaen Figueroa">
+    <meta name="description" content="Portafolio web, donde muestro mis ulitmos proyectos, mis skills, redes socilaes, etc.">
+    <meta name="keywords" content="html, sass, javascript, portafolio, jaen figueroa, jaen, figueroa, @jaenfigueroa, @JaenDeveloper">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <title>Jaen Figueroa</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css?bbbcccb" />
+    <!-- JS -->
+    <script src="./src/redes_trabajos.js" defer></script>
+    <script src="./src/main.js" defer></script>
+    <!-- poppins font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <!-- AWESOME ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body class="body over-hidden" id="body">
+    <!-- HEADER -->
+    <header class="header">
+      <!-- LOGO -->
+      <a href="https://jaenfigueroa.com/">
+        <h2 class="header__logo">jaenfigueroa</h2>
+      </a>
+      <!-- NAV -->
+      <nav class="header__nav">
+        <!-- ICONO SANDWICH -->
+        <i class="fa-solid fa-bars nav__icono" id="icono-nav"></i>
+        <!-- CAJA DE LINKS -->
+        <ul class="nav__caja" id="contenedor-nav">
+          <a href="#seccion-home" class="item-nav selected"><li>home</li></a>
+          <!-- <a href="#seccion-about" class="item-nav"><li>about</li></a> -->
+          <a href="#seccion-skills" class="item-nav"><li>skills</li></a>
+          <a href="#seccion-projects" class="item-nav"><li>projects</li></a>
+          <a href="#seccion-contact" class="item-nav"><li>contact</li></a>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="main" id="main">
+      <!-- seccion 1 - HOME-->
+      <section class="seccion1" id="seccion-home">
+        <article class="cajas">
+          <div class="caja1">
+            <p class="titulo" id="titulo"></p>
+            <p class="cargo" id="cargo"></p>
+          </div>
+          <div class="caja2">
+            <a href="#" target="_blank">
+              <button class="caja2__boton descargar-cv" id="boton-descargar-cv">
+                  <span>Download CV</span>&nbsp;&nbsp;
+                  <i class="bi bi-download"></i>
+              </button>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=51916995780" target="_blank">
+            <button class="caja2__boton contact-ws" id="boton-contact">
+                <span>Contact me</span>&nbsp;&nbsp;
+                <i class="fa-brands fa-whatsapp"></i>
+              </button>
+            </a>
+          </div>
+        </article>
+        <div class="seccion1__imagen"></div>
+        <div class="contenedor-redes">
+          <ul>
+            <li>
+              <a href="https://github.com/jaenfigueroa" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/JaenFigueroa_" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jaenfigueroa/" target="_blank">
+                <!-- <i class="fa-brands fa-linkedin"></i> -->
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/JaenDeveloper/" target="_blank">
+                <!-- <i class="fa-brands fa-facebook"></i> -->
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <!-- <li>
+              <a href="https://api.whatsapp.com/send?phone=51916995780" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </li> -->
+            <li>
+              <a href="mailto:contact@jaenfigueroa.com" target="_blank">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+
+              <!-- <a href=»mailto:[email protected]»>Aquí el texto que desees que aparezca</a> -->
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- seccion 2 - SKILLS-->
+      <section class="seccion2" id="seccion-skills">
+        <div class="caja">
+          <div class="caja__contenido">
+            <label class="titulo-skills">Skills</label>
+            <p>
+              I have a good command and use of the following technologies for the creation of web pages.
+            </p>
+          </div>
+          <div class="caja__iconos caja-skills">
+            <div class="contenedor-iconos">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i>
+              <div class="icono-typescript"></div>
+              <i class="fa-brands fa-react"></i>
+              <i class="fa-brands fa-sass"></i>
+              <i class="fa-brands fa-bootstrap"></i>
+              <i class="fa-brands fa-node"></i>
+              <div class="icono-express"></div>
+              <div class="icono-mdb"></div>
+              <div class="icono-npm"></div>
+              <i class="fa-brands fa-git"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-linux"></i>
+              <i class="bi bi-terminal"></i>
+              <i class="fa-brands fa-markdown"></i>
+              <i class="fa-brands fa-figma"></i>
+              <!-- <i class="bi bi-terminal-fill"></i> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCION 3 - PROYECTOS-->
+      <section class="seccion3" id="seccion-projects">
+        <div class="caja1">
+          <h2 class="titulo-projects">Projects</h2>
+          <p class="subtitulo">the last projects I did to put into practice the knowledge acquired as a developer</p>
+        </div>
+        
+        <div class="seccion3__contenedor" id="contenedor-proyectos">
+          <!-- ////////////////////////////////// -->
+          <template id="template-proyecto">
+            <article class="proyecto" >
+              <div class="contenido">
+                <!-- contenedor datos -->
+                <div class="contenedor-datos">
+                  <span class="nombre"></span>
+                  <span class="fecha"></span>
+                  <p class="descripcion"></p>
+                </div>
+                <!-- contenedor botones -->
+                <div class="contenedor-botones">
+                  <a href="https://jaenfigueroa.github.io/eCommerce" target="_blank" class="link-website">
+                    <button>
+                      Website&nbsp;&nbsp;
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/jaenfigueroa/eCommerce" target="_blank" class="link-github">
+                    <button>
+                      Github&nbsp;&nbsp;
+                      <i class="fa-brands fa-github"></i>
+                    </button>
+                  </a>
+                </div>
+                <!-- ------------------- -->
+              </div>
+            </article>
+          </template>
+        </div>
+        <!-- ////////////////////////////////// -->
+        <div class="contenedor-more titulo-more-projects">
+          <a href="https://github.com/jaenfigueroa" target="_blank">
+            <span>More projects&nbsp;&nbsp;</span>
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- SECCION 4 - CONTACT-->
+      <section class="seccion4" id="seccion-contact">
+        <!-- <h2>Contact</h2> -->
+        <div class="caja caja-contact">
+          <div class="contenido">
+            <p class="pregunta">Have a idea?<br>
+            <span class="frase">Let's talk about it</span></p>
+
+              <a href="https://api.whatsapp.com/send?phone=51916995780" target="_blank">
+                <button class="boton">
+                  Contact me&nbsp;&nbsp;
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <div class="fondo"></div>
+                </button>
+              </a>
+
+            <a class="correo" href="mailto:contact@jaenfigueroa.com" target="_blank">contact@jaenfigueroa.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="contenedor-redes">
+        <ul>
+          <li>
+            <a href="https://github.com/jaenfigueroa" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/JaenFigueroa_" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jaenfigueroa/" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/JaenDeveloper/" target="_blank">
+              <!-- <i class="fa-brands fa-facebook"></i> -->
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a  href="https://api.whatsapp.com/send?phone=51916995780" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:contact@jaenfigueroa.com" target="_blank">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>Developed by <a href="https://github.com/jaenfigueroa" target="_blank">Jaen Figueroa</a> &#169 2022</p>
+    </footer>
+
+    <!-- PANTALLA DE CARGA -->
+    <div class="pantalla-de-carga" id="pantalla-de-carga">
+      <!-- pantalla de carga 2 -->
+      <div class="loadingio-spinner-double-ring-1wm8naw1smp">
+        <div class="ldio-p5sjjoa9rhk">
+        <div></div>
+        <div></div>
+        <div><div></div></div>
+        <div><div></div></div>
+        </div></div>
+    </div>
+
+    <!-- FIN -->
+  </body>
+</html>

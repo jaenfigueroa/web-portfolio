@@ -1,0 +1,231 @@
+@use 'colores';
+
+.seccion4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  padding: 4rem 2rem 6rem;
+  background: colores.$negro-0;
+
+  /* ////////////////////////////////////////////// */
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    color: colores.$normal;
+  }
+
+  .caja {
+    width: 100%;
+    max-width: 70rem;
+    background: #1f1f1f;
+    background: #202020; /* prov */
+    background: colores.$fondo2; /* POV */
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .contenido {
+      // border: 0.1rem solid greenyellow;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3rem;
+      gap: 2rem;
+      gap: 1rem;
+
+      .pregunta {
+        color: white;
+        color: colores.$normal;
+        font-size: 2.2rem;
+        line-height: 4rem;
+      }
+      .frase {
+        font-size: 3rem;
+        font-weight: 500;
+        color: colores.$azul-1;
+        color: colores.$azul-2;
+      }
+      .boton {
+        padding: 0.5rem 1.5rem;
+        font-size: 2rem;
+        // align-self: center;
+        border: 0.1rem solid colores.$azul-1;
+        background-color: transparent;
+        color: white;
+        color: colores.$normal;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+
+        i {
+          font-size: 2rem;
+        }
+
+        &:hover .fondo {
+          transform: translateX(0);
+        }
+
+        .fondo {
+          background-color: colores.$azul-0;
+          width: 200%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          transform: translateX(-100%);
+          transition: 0.7s;
+        }
+      }
+
+      .correo {
+        color: white;
+        color: colores.$normal;
+        font-size: 1.7rem;
+        margin-top: 3rem;
+        margin-top: 4rem;
+        align-self: flex-end;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 475px) {
+  .seccion4 {
+    // padding: 4rem 2rem 6rem;
+
+    .caja {
+      // background-color: blue;
+      padding: 3rem;
+
+      .contenido {
+        .pregunta {
+          font-size: 2.6rem;
+        }
+        .frase {
+          font-size: 4rem;
+        }
+        .boton {
+          align-self: flex-start;
+        }
+        .correo {
+          font-size: 2.2rem;
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .seccion4 {
+    padding: 6.5rem 4rem 8rem;
+    padding: 6.5rem 4rem 6.5rem;
+    gap: 5rem;
+
+    h2 {
+      font-size: 4rem;
+    }
+
+    .caja {
+      // background-color: green;
+      padding: 4rem;
+      max-width: 65rem;
+      max-width: 75rem;
+      // max-width: 60rem;
+
+      padding: 5rem 4rem;
+      gap: 4rem;
+
+      .contenido {
+        // background-color: red;
+        gap: 3rem;
+        gap: 2rem;
+
+        .pregunta {
+          font-size: 3rem;
+          line-height: 5rem;
+        }
+        .frase {
+          font-size: 5rem;
+        }
+        .boton {
+          align-self: flex-start;
+          font-size: 3rem;
+          i {
+            font-size: 3rem;
+          }
+        }
+        .correo {
+          font-size: 2.6rem;
+          margin-top: 7rem;
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 980px) {
+  .seccion4 {
+    padding: 8rem 4rem 8rem;
+
+    h2 {
+      font-size: 5rem;
+    }
+
+    .caja {
+      padding: 5rem 5rem;
+      // background-color: red;
+      max-width: 95rem;
+
+      .contenido {
+        // background-color: rgb(105, 105, 49);
+        gap: 2.5rem;
+
+        .pregunta {
+          font-size: 3rem;
+          font-size: 3.5rem;
+          line-height: 5rem;
+          line-height: 6.5rem;
+        }
+        .frase {
+          font-size: 5rem;
+          font-size: 6rem;
+        }
+        .boton {
+          align-self: flex-start;
+          font-size: 4rem;
+          font-size: 3.5rem;
+          i {
+            font-size: 4rem;
+            font-size: 3.5rem;
+          }
+        }
+        .correo {
+          font-size: 2.6rem;
+          font-size: 3rem;
+          font-size: 3.2rem;
+
+          margin-top: 7rem;
+          margin-top: 8rem;
+        }
+      }
+    }
+  }
+}

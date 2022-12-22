@@ -1,0 +1,18 @@
+/* MODO OSCURO///////////////////////////////////////////// */
+$negro-0: #101010;
+$negro-1: #151515;
+$negro-2: #202020;
+$negro-3: #1a1a1a;
+$negro-4: #181818; /* solo FONDO SCROLL */
+
+$fondo: linear-gradient(to right, $negro-2, $negro-1);
+$fondo2: $negro-3;
+$borde: #ffffff13;
+
+$azul-0: #7065ff;
+$azul-1: #8f88fe;
+$azul-2: #acaffe;
+$azul-3: #dddbfe; /* solo se usa en CARGA */
+
+$normal: white;
+/* MODO CLARO////////////////////////////////////////////// */

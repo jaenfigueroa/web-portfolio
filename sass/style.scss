@@ -1,0 +1,70 @@
+@use 'colores';
+@use 'header';
+
+@use 'hero';
+@use 'skills';
+@use 'projects';
+@use 'contact';
+
+@use 'footer';
+@use 'pantalla-de-carga';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  // user-select: none;
+}
+html {
+  font-size: 62.5%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blur {
+  filter: blur(0.4rem);
+}
+
+/* para quE cuando use el nav entre secciones; no se tape le titulo de la seccion */
+section[id] {
+  scroll-margin-top: 4rem;
+}
+
+/* para que lo que este fuera del contenedor , no se muestre */
+.over-hidden {
+  overflow: hidden;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+
+.body {
+  // background-color: colores.$negro-0;
+}
+
+main {
+  overflow: hidden;
+}
+
+/* SCROLLL */
+
+.body::-webkit-scrollbar {
+  // background: #181818;
+  background: colores.$negro-4; /* PROV */
+  width: 1.5rem;
+  width: 1.4rem;
+}
+
+.body::-webkit-scrollbar-thumb {
+  // background: #8f88fe;
+  background: colores.$azul-1; /* PROV */
+}
