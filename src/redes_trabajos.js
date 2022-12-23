@@ -11,6 +11,22 @@ const REDES_SOCIALES = {
 
 const TRABAJOS = [
   {
+    nombre: 'Tic, tac, Toe',
+    fecha: '23 - Ago - 2022',
+    descripcion: '',
+    website: '#',
+    github: 'https://github.com/jaenfigueroa/Juego-Tic-Tac-Toe-Online-1vs1',
+    imagen: './assets/proyectos/tic_tac_toe.png'
+  },
+  {
+    nombre: 'Calculadora',
+    fecha: '27 - Ago - 2022',
+    descripcion: '',
+    website: 'https://jaenfigueroa.github.io/Calculadora/',
+    github: 'https://github.com/jaenfigueroa/Calculadora',
+    imagen: './assets/proyectos/calculadora.png'
+  },
+  {
     nombre: 'Rock, Papper or Scissors',
     fecha: '01 - Oct - 2022',
     descripcion:
