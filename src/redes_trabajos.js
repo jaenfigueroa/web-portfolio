@@ -11,15 +11,6 @@ const REDES_SOCIALES = {
 
 const TRABAJOS = [
   {
-    nombre: 'Tic, tac, Toe Online 1vs1',
-    fecha: '23 - Ago - 2022',
-    descripcion:
-      'known game, where the player who first forms a line a of 3 wins the game',
-    website: '#',
-    github: 'https://github.com/jaenfigueroa/Juego-Tic-Tac-Toe-Online-1vs1',
-    imagen: './assets/proyectos/tic_tac_toe.png'
-  },
-  {
     nombre: 'Calculadora',
     fecha: '27 - Ago - 2022',
     descripcion:
@@ -62,6 +53,15 @@ const TRABAJOS = [
     website: 'https://jaenfigueroa.github.io/Aplicacion-de-tareas/',
     github: 'https://github.com/jaenfigueroa/Aplicacion-de-tareas',
     imagen: './assets/proyectos/to_do_list.png'
+  },
+  {
+    nombre: 'Tic, tac, Toe Online 1vs1',
+    fecha: '27 - Oct - 2022',
+    descripcion:
+      'known game, where the player who first forms a line a of 3 wins the game',
+    website: '#',
+    github: 'https://github.com/jaenfigueroa/Juego-Tic-Tac-Toe-Online-1vs1',
+    imagen: './assets/proyectos/tic_tac_toe.png'
   },
   {
     nombre: 'Messaging App',
