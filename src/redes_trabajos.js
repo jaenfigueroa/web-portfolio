@@ -11,9 +11,10 @@ const REDES_SOCIALES = {
 
 const TRABAJOS = [
   {
-    nombre: 'Tic, tac, Toe',
+    nombre: 'Tic, tac, Toe Online 1vs1',
     fecha: '23 - Ago - 2022',
-    descripcion: '',
+    descripcion:
+      'known game, where the player who first forms a line a of 3 wins the game',
     website: '#',
     github: 'https://github.com/jaenfigueroa/Juego-Tic-Tac-Toe-Online-1vs1',
     imagen: './assets/proyectos/tic_tac_toe.png'
@@ -21,7 +22,8 @@ const TRABAJOS = [
   {
     nombre: 'Calculadora',
     fecha: '27 - Ago - 2022',
-    descripcion: '',
+    descripcion:
+      'Application to perform addition, subtraction, multiplication, division, etc.',
     website: 'https://jaenfigueroa.github.io/Calculadora/',
     github: 'https://github.com/jaenfigueroa/Calculadora',
     imagen: './assets/proyectos/calculadora.png'
