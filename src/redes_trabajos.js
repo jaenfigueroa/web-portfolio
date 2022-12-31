@@ -153,6 +153,24 @@ const TRABAJOS = [
     website: 'https://jaenfigueroa.github.io/web-portfolio',
     github: 'https://github.com/jaenfigueroa/web-portfolio',
     imagen: './assets/proyectos/web_portfolio.png'
+  },
+  {
+    nombre: 'User Profiles ',
+    fecha: '15 - Dec - 2022',
+    descripcion:
+      'Application developed in reatc, it consumes information from an api, the app has pagination, the 404 page, among others.',
+    website: 'https://user-profiles-api.netlify.app/',
+    github: 'https://github.com/jaenfigueroa/User-profiles',
+    imagen: './assets/proyectos/profiles.png'
+  },
+  {
+    nombre: 'Manage Movies List app',
+    fecha: '15 - Dec - 2022',
+    descripcion:
+      'Application to save movie lists, you can edit them, move them, delete them, search them, etc.',
+    website: 'https://manage-movie-list.netlify.app/',
+    github: 'https://github.com/jaenfigueroa/manage-movie-list',
+    imagen: './assets/proyectos/movies.png'
   }
 ]
 
