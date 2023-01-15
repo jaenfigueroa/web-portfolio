@@ -171,6 +171,15 @@ const TRABAJOS = [
     website: 'https://manage-movie-list.netlify.app/',
     github: 'https://github.com/jaenfigueroa/manage-movie-list',
     imagen: './assets/proyectos/movies.png'
+  },
+  {
+    nombre: 'PokeZone',
+    fecha: '3 - Jan - 2023',
+    descripcion:
+      'This project is a Pokémon-themed website created with React.js and the PokeAPI API.',
+    website: 'https://pokezone.jaenfigueroa.com/',
+    github: 'https://github.com/jaenfigueroa/PokeZone',
+    imagen: './assets/proyectos/pokezone.png'
   }
 ]
 
