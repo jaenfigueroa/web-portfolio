@@ -173,14 +173,14 @@
   transition: 0.3s;
 }
 .seccion1 .caja2__boton:hover {
-  background: #19ac3b;
+  background: #7065ff;
 }
 .seccion1 .caja2 .descargar-cv {
-  background-color: #19ac3b;
+  background-color: #7065ff;
   border: 0.1rem solid #8f88fe;
 }
 .seccion1 .caja2 .descargar-cv:hover {
-  background-color: #19ac3b;
+  background-color: #7065ff;
 }
 .seccion1 .caja2 .boton2 {
   background-color: transparent;
@@ -490,7 +490,7 @@
   }
   .seccion1 .cajas .caja2 .descargar-cv:after {
     content: "";
-    background-color: #19ac3b;
+    background-color: #7065ff;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -512,7 +512,7 @@
   }
   .seccion1 .cajas .caja2 .contact-ws:after {
     content: "";
-    background-color: #19ac3b;
+    background-color: #7065ff;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -972,7 +972,7 @@
   transition: 0.3s;
 }
 .seccion3__contenedor .proyecto .contenido .contenedor-botones button:hover {
-  background: #19ac3b;
+  background: #7065ff;
   color: white;
   color: white;
 }
@@ -1175,7 +1175,7 @@
   transform: translateX(0);
 }
 .seccion4 .caja .contenido .boton .fondo {
-  background-color: #19ac3b;
+  background-color: #7065ff;
   width: 200%;
   height: 100%;
   position: absolute;
@@ -1374,7 +1374,7 @@
   left: 28px;
   border-radius: 50%;
   border: 16px solid #000;
-  border-color: #19ac3b transparent #19ac3b transparent;
+  border-color: #7065ff transparent #7065ff transparent;
   animation: ldio-p5sjjoa9rhk 1s linear infinite;
 }
 
@@ -1411,15 +1411,15 @@
   height: 16px;
   top: -16px;
   left: 48px;
-  background: #19ac3b;
+  background: #7065ff;
   border-radius: 50%;
-  box-shadow: 0 128px 0 0 #19ac3b;
+  box-shadow: 0 128px 0 0 #7065ff;
 }
 
 .ldio-p5sjjoa9rhk > div:nth-child(3) div:after {
   left: -16px;
   top: 48px;
-  box-shadow: 128px 0 0 0 #19ac3b;
+  box-shadow: 128px 0 0 0 #7065ff;
 }
 
 .ldio-p5sjjoa9rhk > div:nth-child(4) {

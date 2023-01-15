@@ -128,15 +128,6 @@ const TRABAJOS = [
     imagen: './assets/proyectos/pomodoro_timer.png'
   },
   {
-    nombre: 'Pokedex',
-    fecha: '5 - Dec - 2022',
-    descripcion:
-      'The Pokemon app, using the Pokemon API: PokeAPI, has a feature for adding favorites, using local storage.',
-    website: 'https://jaenfigueroa.github.io/PokeDex',
-    github: 'https://github.com/jaenfigueroa/PokeDex',
-    imagen: './assets/proyectos/pokedex.png'
-  },
-  {
     nombre: 'eCommerce',
     fecha: '10 - Dec - 2022',
     descripcion:
