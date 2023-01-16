@@ -11,69 +11,6 @@ const REDES_SOCIALES = {
 
 const TRABAJOS = [
   {
-    nombre: 'Calculadora',
-    fecha: '27 - Ago - 2022',
-    descripcion:
-      'Application to perform addition, subtraction, multiplication, division, etc.',
-    website: 'https://jaenfigueroa.github.io/Calculadora/',
-    github: 'https://github.com/jaenfigueroa/Calculadora',
-    imagen: './assets/proyectos/calculadora.png'
-  },
-  {
-    nombre: 'Rock, Papper or Scissors',
-    fecha: '01 - Oct - 2022',
-    descripcion:
-      'Game for 2 people, where you play with your hands, using rock, paper or scissors.',
-    website: 'https://jaenfigueroa.github.io/Piedra-Papel-Tijera/',
-    github: 'https://github.com/jaenfigueroa/Piedra-Papel-Tijera',
-    imagen: './assets/proyectos/ppt.png'
-  },
-  {
-    nombre: 'Google Clone',
-    fecha: '7 - Oct - 2022',
-    descripcion: 'This is a personal project, a clone of the google search engine.',
-    website: 'https://jaenfigueroa.github.io/Google-Buscador/',
-    github: 'https://github.com/jaenfigueroa/Google-Buscador',
-    imagen: './assets/proyectos/google.png'
-  },
-  {
-    nombre: 'De voz a texto',
-    fecha: '15 - Oct - 2022',
-    descripcion:
-      'Application to transcribe the human voice into text, available for the English and Spanish language.',
-    website: 'https://jaenfigueroa.github.io/De-voz-a-texto/',
-    github: 'https://github.com/jaenfigueroa/De-voz-a-texto',
-    imagen: './assets/proyectos/de_voz_a_texto.png'
-  },
-  {
-    nombre: 'To Do List',
-    fecha: '23 - Oct - 2022',
-    descripcion:
-      'Application to save important notes, which will always be available in the browser.',
-    website: 'https://jaenfigueroa.github.io/Aplicacion-de-tareas/',
-    github: 'https://github.com/jaenfigueroa/Aplicacion-de-tareas',
-    imagen: './assets/proyectos/to_do_list.png'
-  },
-  {
-    nombre: 'Tic, tac, Toe Online 1vs1',
-    fecha: '27 - Oct - 2022',
-    descripcion:
-      'known game, where the player who first forms a line a of 3 wins the game',
-    website: '#',
-    github: 'https://github.com/jaenfigueroa/Juego-Tic-Tac-Toe-Online-1vs1',
-    imagen: './assets/proyectos/tic_tac_toe.png'
-  },
-  {
-    nombre: 'Messaging App',
-    fecha: '31 - Oct - 2022',
-    descripcion:
-      'A real-time messaging application, par puts into practice what they have learned using nodejs, express in the backend.',
-    website: '#',
-    github:
-      'https://github.com/jaenfigueroa/Aplicacion-Chat-de-mensajes-en-tiempo-real',
-    imagen: './assets/proyectos/chat_mensajes.png'
-  },
-  {
     nombre: 'Puzzle Shuerk',
     fecha: '28 - Oct - 2022',
     descripcion:
@@ -90,15 +27,6 @@ const TRABAJOS = [
     website: 'https://jaenfigueroa.github.io/Halloween-Pumpkin/',
     github: 'https://github.com/jaenfigueroa/Halloween-Pumpkin',
     imagen: './assets/proyectos/halloween_pumpkin.png'
-  },
-  {
-    nombre: 'Duck and Bread',
-    fecha: '11 - Nov - 2022',
-    descripcion:
-      'A mouse effect, where the duck follows the piece of bread with its eyes.',
-    website: 'https://jaenfigueroa.github.io/Duck-and-bread/',
-    github: 'https://github.com/jaenfigueroa/Duck-and-bread',
-    imagen: './assets/proyectos/duck_and_bread.png'
   },
   {
     nombre: 'Cubo Rubik',
@@ -144,15 +72,6 @@ const TRABAJOS = [
     website: 'https://jaenfigueroa.github.io/web-portfolio',
     github: 'https://github.com/jaenfigueroa/web-portfolio',
     imagen: './assets/proyectos/web_portfolio.png'
-  },
-  {
-    nombre: 'User Profiles ',
-    fecha: '15 - Dec - 2022',
-    descripcion:
-      'Application developed in reatc, it consumes information from an api, the app has pagination, the 404 page, among others.',
-    website: 'https://user-profiles-api.netlify.app/',
-    github: 'https://github.com/jaenfigueroa/User-profiles',
-    imagen: './assets/proyectos/profiles.png'
   },
   {
     nombre: 'Manage Movies List app',
