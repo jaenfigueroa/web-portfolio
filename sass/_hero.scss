@@ -40,11 +40,9 @@
       color: colores.$azul-2;
       animation: blink 0.5s infinite step-end alternate;
 
-      // border: 0.1rem solid aqua; /* PROV */
-
       &--animada {
         &:after {
-          content: "Hello, I'm Jaen";
+          content: "Hola, soy Jaen";
           animation: saludo 3s;
         }
       }
@@ -60,8 +58,6 @@
       color: white;
       color: colores.$normal;
       width: max-content;
-
-      // border: 0.1rem solid greenyellow; /* PROV */
 
       &--animada {
         &:before {
@@ -109,22 +105,13 @@
         background-color: colores.$azul-0;
       }
     }
-    .contact-ws {
-      // background-color: yellow;
-      &:after {
-        // content: 'vaca';
-      }
-    }
 
     .boton2 {
       background-color: transparent;
       border: 0.1rem solid colores.$azul-1;
-      // background-color: red;
     }
 
     button {
-      /* PROV */
-      // background: red;
       width: 21rem;
 
       span {
@@ -184,46 +171,45 @@
     border-right: 0.3rem solid colores.$normal;
   }
   5% {
-    content: 'He';
+    content: 'Ho';
   }
   10% {
-    content: 'Hel';
+    content: 'Hol';
   }
   15% {
-    content: 'Hell';
+    content: 'Hola';
   }
   20% {
-    content: 'Hello';
+    content: 'Hola,';
   }
   25% {
-    content: 'Hello';
+    content: 'Hola, ';
   }
   30% {
-    content: 'Hello, ';
+    content: 'Hola, s';
   }
   35% {
-    content: 'Hello, I';
+    content: 'Hola, so';
   }
   40% {
-    content: "Hello, I'";
+    content: "Hola, soy";
   }
   45% {
-    content: "Hello, I'm";
+    content: "Hola, soy ";
   }
   45% {
-    content: "Hello, I'm ";
+    content: "Hola, soy J";
   }
   50% {
-    content: "Hello, I'm J";
+    content: "Hola, soy Ja";
   }
   55% {
-    content: "Hello, I'm Ja";
+    content: "Hola, soy Jae";
   }
   60% {
-    content: "Hello, I'm Jae";
+    content: "Hola, soy Jaen";
   }
   65% {
-    content: "Hello, I'm Jaen";
     border-right: 0.3rem solid rgb(255, 255, 255);
     border-right: 0.3rem solid colores.$normal;
   }
@@ -237,76 +223,79 @@
 
 @keyframes cargo {
   1% {
-    content: 'F';
+    content: 'D';
   }
   3% {
-    content: 'Fr';
+    content: 'De';
   }
   6% {
-    content: 'Fro';
+    content: 'Des';
   }
   9% {
-    content: 'Fron';
+    content: 'Desa';
   }
   12% {
-    content: 'Front';
+    content: 'Desar';
   }
   15% {
-    content: 'Front-';
+    content: 'Desarr';
   }
   18% {
-    content: 'Front-E';
+    content: 'Desarro';
   }
   21% {
-    content: 'Front-En';
+    content: 'Desarrol';
   }
   24% {
-    content: 'Front-End';
+    content: 'Desarroll';
   }
   27% {
-    content: 'Front-End ';
+    content: 'Desarrolla';
   }
   30% {
-    content: 'Front-End W';
+    content: 'Desarrollad';
   }
   33% {
-    content: 'Front-End We';
+    content: 'Desarrollado';
   }
   36% {
-    content: 'Front-End Web';
+    content: 'Desarrollador';
   }
   39% {
-    content: 'Front-End Web ';
+    content: 'Desarrollador Web';
   }
   42% {
-    content: 'Front-End Web D';
+    content: 'Desarrollador Web F';
   }
   45% {
-    content: 'Front-End Web De';
+    content: 'Desarrollador Web Fr';
   }
   48% {
-    content: 'Front-End Web Dev';
+    content: 'Desarrollador Web Fro';
   }
   51% {
-    content: 'Front-End Web Deve';
+    content: 'Desarrollador Web Fro';
   }
   54% {
-    content: 'Front-End Web Devel';
+    content: 'Desarrollador Web Fron';
   }
   57% {
-    content: 'Front-End Web Develo';
+    content: 'Desarrollador Web Front';
   }
   60% {
-    content: 'Front-End Web Develop';
+    content: 'Desarrollador Web Front-';
   }
   63% {
-    content: 'Front-End Web Develope';
+    content: 'Desarrollador Web Front-E';
   }
   66% {
-    content: 'Front-End Web Developer';
+    content: 'Desarrollador Web Front-En';
+  }
+  69% {
+    content: 'Desarrollador Web Front-End';
   }
   100% {
-    content: 'Front-End Web Developer';
+    content: 'Desarrollador Web Front-End';
   }
 }
 /* ///////////////////////////////////////// */
