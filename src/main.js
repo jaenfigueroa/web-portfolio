@@ -51,7 +51,7 @@ function animar() {
 
   setTimeout(() => {
     cargo.classList.add('cargo--animada')
-  }, 2500)
+  }, 2000)
 
   setTimeout(() => {
     titulo.classList.remove('titulo--animada')
