@@ -44,7 +44,7 @@
 
       &--animada {
         &:after {
-          content: "Hi, I'm Jaen";
+          content: "Hello, I'm Jaen";
           animation: saludo 3s;
         }
       }
@@ -184,34 +184,47 @@
     border-right: 0.3rem solid colores.$normal;
   }
   5% {
-    content: 'Hi';
+    content: 'He';
   }
   10% {
-    content: 'Hi, ';
+    content: 'Hel';
   }
   15% {
-    content: 'Hi, I';
+    content: 'Hell';
   }
   20% {
-    content: "Hi, I'";
+    content: 'Hello';
   }
   25% {
-    content: "Hi, I'm";
+    content: 'Hello';
   }
   30% {
-    content: "Hi, I'm ";
+    content: 'Hello, ';
   }
   35% {
-    content: "Hi, I'm J";
+    content: 'Hello, I';
   }
   40% {
-    content: "Hi, I'm Ja";
+    content: "Hello, I'";
   }
   45% {
-    content: "Hi, I'm Jae";
+    content: "Hello, I'm";
+  }
+  45% {
+    content: "Hello, I'm ";
+  }
+  50% {
+    content: "Hello, I'm J";
   }
   55% {
-    content: "Hi, I'm Jaen";
+    content: "Hello, I'm Ja";
+  }
+  60% {
+    content: "Hello, I'm Jae";
+  }
+  65% {
+    content: "Hello, I'm Jaen";
+    border-right: 0.3rem solid rgb(255, 255, 255);
     border-right: 0.3rem solid colores.$normal;
   }
   70% {
@@ -219,7 +232,6 @@
   }
   100% {
     border-right: 0.3rem solid transparent;
-    content: "Hi, I'm Jaen";
   }
 }
 
