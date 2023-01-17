@@ -846,6 +846,7 @@
 @media (min-width: 936px) {
   .seccion2 .caja .caja__iconos .contenedor-iconos {
     justify-content: space-between; /* PROVISONAL */
+    margin-top: 1.8rem; /* PROV */
   }
 }
 @media (min-width: 1200px) {
