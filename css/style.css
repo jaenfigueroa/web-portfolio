@@ -915,11 +915,7 @@
   min-height: 39rem;
 }
 .seccion3__contenedor .proyecto .contenido {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6));
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
-  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)); /* PROV */
-  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)); /* PROV */
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5));
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -929,7 +925,8 @@
   position: relative;
   padding: 2rem;
   transform: translateY(-100%);
-  transition: 0.6s;
+  transition: 0.5s;
+  opacity: 0;
 }
 .seccion3__contenedor .proyecto .contenido .contenedor-datos {
   width: 100%;
@@ -990,8 +987,8 @@
   color: white;
 }
 .seccion3__contenedor .proyecto:hover .contenido {
-  opacity: 1;
   transform: translateY(0);
+  opacity: 1;
 }
 
 .contenedor-more {

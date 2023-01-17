@@ -1,12 +1,27 @@
+  // {
+  //   nombre: 'Duck and Bread',
+  //   descripcion:
+  //     'A mouse effect, where the duck follows the piece of bread with its eyes.',
+  //   website: 'https://jaenfigueroa.github.io/Duck-and-bread/',
+  //   github: 'https://github.com/jaenfigueroa/Duck-and-bread',
+  //   imagen: './assets/proyectos/duck_and_bread.png'
+  // },
+
+
+
+
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+
 const TRABAJOS = [
-  {
-    nombre: 'Calculadora',
-    descripcion:
-      'Aplicacion para realizar operaciones basicas de matematicas, desarrollado con HTML, CSS y JavaScript',
-    website: 'https://jaenfigueroa.github.io/Calculadora/',
-    github: 'https://github.com/jaenfigueroa/Calculadora',
-    imagen: './assets/proyectos/calculadora.png'
-  },
+  // {
+  //   nombre: 'Calculadora',
+  //   descripcion:
+  //     'Aplicacion para realizar operaciones basicas de matematicas, desarrollado con HTML, CSS y JavaScript',
+  //   website: 'https://jaenfigueroa.github.io/Calculadora/',
+  //   github: 'https://github.com/jaenfigueroa/Calculadora',
+  //   imagen: './assets/proyectos/calculadora.png'
+  // },
   {
     nombre: 'Rock, Papper or Scissors',
     descripcion:
@@ -74,7 +89,7 @@ const TRABAJOS = [
   {
     nombre: 'JaenCraft',
     descripcion:
-      'Recreacion del personaje del Minecraft hecho con HTML, CSS y Javascript, puedes mover el personaje con las teclas, entre otras cosas.',
+      'Recreacion del personaje del Minecraft, puedes mover el personaje con las teclado, entre otras acciones, desarrollado con HTML, CSS y Javascript.',
     website: 'https://jaenfigueroa.github.io/JaenCraft/',
     github: 'https://github.com/jaenfigueroa/JaenCraft',
     imagen: './assets/proyectos/jaencraft.png'
@@ -98,15 +113,23 @@ const TRABAJOS = [
   {
     nombre: 'Web Portfolio',
     descripcion:
-      'Sitio web para mostrar mis habilidades y proyectos como desarrollador, hecho con HTML, Sass y javascript',
+      'Sitio web para mostrar mis habilidades y proyectos como desarrollador, hecho con HTML, Sass y JavaScript',
     website: 'https://jaenfigueroa.github.io/web-portfolio',
     github: 'https://github.com/jaenfigueroa/web-portfolio',
     imagen: './assets/proyectos/web_portfolio.png'
   },
+    {
+    nombre: 'User Profiles ',
+    descripcion:
+      'Sitio web de una lista de usuarios con paginación, desarrollado con React.js, CSS, REQRES API',
+    website: 'https://user-profiles-api.netlify.app/',
+    github: 'https://github.com/jaenfigueroa/User-profiles',
+    imagen: './assets/proyectos/profiles.png'
+  },
   {
     nombre: 'Manage Movies List app',
     descripcion:
-      'Aplicación para guardar listas de películas, puedes editarlas, moverlas, borrarlas, buscarlas, etc, desarrollado con React.js',
+      'Aplicación para guardar listas de películas, puedes editarlas, moverlas, borrarlas, buscarlas, etc, desarrollado con React.js y CSS',
     website: 'https://manage-movie-list.netlify.app/',
     github: 'https://github.com/jaenfigueroa/manage-movie-list',
     imagen: './assets/proyectos/movies.png'
@@ -114,7 +137,7 @@ const TRABAJOS = [
   {
     nombre: 'PokeZone',
     descripcion:
-      'Sitio web con temática de Pokémon creado con React.js y la API PokeAPI.',
+      'Sitio web con temática de Pokémon creado con React.js, CSS y la API PokeAPI.',
     website: 'https://pokezone.jaenfigueroa.com/',
     github: 'https://github.com/jaenfigueroa/PokeZone',
     imagen: './assets/proyectos/pokezone.png'
