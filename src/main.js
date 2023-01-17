@@ -189,7 +189,7 @@ function crearTarjeta(trabajo) {
   const clon = template.content.cloneNode(true)
   //////////////////////////////
   clon.querySelector('.nombre').textContent = trabajo.nombre
-  clon.querySelector('.fecha').textContent = trabajo.fecha
+  // clon.querySelector('.fecha').textContent = trabajo.fecha
   clon.querySelector('.descripcion').textContent = trabajo.descripcion
   clon.querySelector('.proyecto').style.backgroundImage = `url(${trabajo.imagen})`
   clon.querySelector('.link-website').href = trabajo.website

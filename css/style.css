@@ -928,7 +928,6 @@
   align-items: center;
   position: relative;
   padding: 2rem;
-  gap: 3rem;
   transform: translateY(-100%);
   transition: 0.6s;
 }
@@ -943,6 +942,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  gap: 3rem;
   text-shadow: 0 0 1.5rem black;
   text-shadow: 0 0 1rem black;
 }
