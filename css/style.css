@@ -595,7 +595,6 @@
   padding: 3.5rem;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
   justify-content: space-between;
 }
 .seccion2 .caja__contenido {
@@ -605,6 +604,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 4rem;
 }
 .seccion2 .caja__contenido label {
   font-size: 3rem;
@@ -733,7 +733,7 @@
   }
   .seccion2 .caja .caja__contenido p {
     font-size: 1.7rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
   }
   .seccion2 .caja .caja__iconos {
     min-width: 42rem;
@@ -741,6 +741,7 @@
   }
   .seccion2 .caja .caja__iconos .contenedor-iconos {
     gap: 5rem;
+    gap: 4rem; /* PROV */
   }
   .seccion2 .caja .caja__iconos .contenedor-iconos i {
     font-size: 7.5rem;
@@ -772,6 +773,9 @@
   .seccion2 .caja {
     gap: 6rem;
   }
+  .seccion2 .caja .caja__contenido {
+    margin-bottom: 0rem;
+  }
   .seccion2 .caja .caja__contenido label {
     font-size: 4.5rem;
   }
@@ -789,6 +793,7 @@
 @media (min-width: 900px) {
   .seccion2 .caja {
     padding: 5rem 5rem 8rem;
+    padding: 6rem 5rem 8rem;
     justify-content: space-between;
     max-width: 130rem;
     /* ////////////////////////////////////////////// */
@@ -799,7 +804,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
   }
   .seccion2 .caja .caja__contenido label {
     font-size: 5rem;
@@ -813,7 +818,7 @@
   }
   .seccion2 .caja .caja__iconos .contenedor-iconos {
     max-width: 70rem;
-    gap: 5rem;
+    max-width: 60rem;
   }
   .seccion2 .caja .caja__iconos .contenedor-iconos i {
     font-size: 8rem;
@@ -849,10 +854,14 @@
   }
   .seccion2 .caja {
     flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 5rem;
   }
   .seccion2 .caja .caja__contenido {
     align-items: flex-start;
     flex-grow: 1;
+    gap: 2rem;
   }
   .seccion2 .caja .caja__contenido label {
     text-align: start;
@@ -864,6 +873,8 @@
   }
   .seccion2 .caja .caja__iconos {
     min-width: 75rem;
+    min-width: 62rem;
+    width: max-content;
   }
 }
 /* TERMINADO MOVER CON EL NAV */

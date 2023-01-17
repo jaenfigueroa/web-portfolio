@@ -23,7 +23,7 @@
     padding: 3.5rem;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    // gap: 5rem;
     justify-content: space-between;
 
     &__contenido {
@@ -33,6 +33,7 @@
       justify-content: center;
       align-items: center;
       gap: 2rem;
+      margin-bottom: 4rem;
 
       label {
         font-size: 3rem;
@@ -56,6 +57,7 @@
       justify-content: center;
       align-items: center;
 
+
       .contenedor-iconos {
         display: flex;
         flex-wrap: wrap;
@@ -63,6 +65,7 @@
         align-items: center;
         justify-content: center;
         gap: 3rem;
+
 
         i {
           font-size: 5rem;
@@ -189,8 +192,7 @@
         }
         p {
           font-size: 1.7rem;
-          margin-bottom: 3rem;
-          // background-color: red;
+          margin-bottom: 0rem;
         }
       }
       .caja__iconos {
@@ -199,6 +201,7 @@
 
         .contenedor-iconos {
           gap: 5rem;
+          gap: 4rem; /* PROV */
 
           i {
             font-size: 7.5rem;
@@ -236,6 +239,8 @@
       gap: 6rem;
 
       .caja__contenido {
+        margin-bottom: 0rem;
+
         label {
           font-size: 4.5rem;
         }
@@ -262,6 +267,7 @@
     // background-color: green;
     .caja {
       padding: 5rem 5rem 8rem;
+      padding: 6rem 5rem 8rem;
       justify-content: space-between;
 
       max-width: 130rem;
@@ -274,8 +280,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
 
         label {
           font-size: 5rem;
@@ -290,9 +295,12 @@
         // background-color: rgb(131, 55, 126);
         max-width: 150rem;
 
+
         .contenedor-iconos {
           max-width: 70rem;
-          gap: 5rem;
+          max-width: 60rem;
+          // gap: 5rem;
+          // border: 1px solid yellow;
 
           i {
             font-size: 8rem;
@@ -340,12 +348,15 @@
 
     .caja {
       flex-direction: row;
-      // background-color: red;
+      justify-content: space-between;
+      gap: 6rem;
+      padding: 5rem;
 
       .caja__contenido {
-        // background-color: blue;
+        // border: 1px solid yellow;
         align-items: flex-start;
         flex-grow: 1;
+        gap: 2rem;
 
         label {
           text-align: start;
@@ -360,10 +371,15 @@
       }
       .caja__iconos {
         min-width: 75rem;
+        min-width: 62rem;
         // background-color: green;
+        width: max-content;
       }
     }
   }
+
+
+
 }
 
 /* TERMINADO MOVER CON EL NAV */
